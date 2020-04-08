@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:4.0
+PRODID:-//BBros.us llc//bvCard.com//EN
+N:Valente;Marco;;Dr;
+FN:Dr Marco Valente
+EMAIL:marco.valente@cern.ch
+ORG:TRIUMF, particle accelerator centre
+URL;type=pref:https://cern.ch/valentem
+END:VCARD

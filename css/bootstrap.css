@@ -4897,6 +4897,9 @@ a.label:focus {
 .label-success[href]:focus {
   background-color: #449d44;
 }
+.label-interest {
+  background-color: #b1cc15;
+}
 .label-info {
   background-color: #5bc0de;
 }

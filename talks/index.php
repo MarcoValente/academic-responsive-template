@@ -88,7 +88,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span><a href="../index.html"><img border="0" width="170" src="images/csucy.png"/></a></span>
+            <span><a href="../index.html"><img border="0" width="250" src="images/unilogo.jpg"/></a></span>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
