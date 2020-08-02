@@ -1,6 +1,8 @@
+
 ## Table of contents
-- [Table of contents](#table-of-contents)
-- [Introduction](#introduction)
+1. [Table of contents](#table-of-contents)
+2. [Introduction](#introduction)
+3. [Di-Higgs signatures](#di-higgs-signatures)
 
 ## Introduction
 
@@ -51,11 +53,20 @@ The detector is composed of:
 3. A *Muon Spectrometer* (MS) allowing to reconstruct tracks left by muons passing
    through the calorimeter system without being stopped.
 
-<!-- ## Particle Flow: Combining sub-detector informations for better reconstruction precision
+## Di-Higgs signatures
 <figure class="image" style="float: right;">
-  <img width="800" src="images/../../images/research/ATLASdetector_empty.png" alt="ATLAS PFlow">
-  <figcaption align="center" style="font-style: italic;" alt="ATLASPFlow">Figure 1: An event with 19 jets recorded by ATLAS on 18 July 2018.</figcaption>
-</figure> -->
+  <img width="500" src="images/research/event_display_16PFlowJets.png" alt="ATLAS event with 16 jets">
+  <figcaption align="center" style="font-style: italic;" alt="PFLowSUSY">Figure 1: An event with 19 jets recorded by ATLAS on 18 July 2018.</figcaption>
+</figure>
+Supersymmetry (SUSY) is one of the most appealing extensions of the Standard Model (SM),
+predicting the existence of a new hidden particle sector through the
+introduction of a fermion-boson symmetry. This theory offers an answer to many of the
+current open questions of physics, such as the origin of dark matter and the unification
+of elementary forces at high energy. SUSY particles could manifest themselves in
+different ways in the proton-proton (p-p) collisions of the Large Hadron
+Collider (LHC). 
+
+During the second Run of the LHC (2015-2018) I had the opportunity
 
 <!-- ## Hunting Supersymmetry in events with large jet multiplicities
 <figure class="image" style="float: right;">
