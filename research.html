@@ -42,20 +42,22 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="glyphicon glyphicon-search"></span>
                     </button>
-                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="index.html"><img border="0" width="250" src="images/unilogo.jpg"/></a></span>
+                    <span><a href="#"><img border="0" width="250" src="images/unilogo.jpg" /></a></span>
                 </div>
-                
+        
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
@@ -63,37 +65,38 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Home<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a
-                                onclick="javascript:reset_menus();$('#tab-intro-content').show();"
+                                <li><a href="index.html">Home</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();"
                                         href="index.html#intro">Introduction</a></li>
                                 <li><a target="_blank" href="valente.pdf">CV (PDF)</a></li>
                             </ul>
                         </li>
-                        <li class="page-scroll">
-                            <a
-                            onclick="javascript:reset_menus();$('#tab-research-content').show();"
-                                href="index.html#research">Research</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Research<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();"
+                                        href="index.html#research">Research</a></li>
+                                <li><a href="research.html">Read all</a></li>
+                            </ul>
                         </li>
                         <!-- <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
-                        </li> -->
+                                    <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                                </li> -->
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Publications<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a
-                                onclick="javascript:reset_menus();$('#tab-publications-content').show();"
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();"
                                         href="index.html#publications">Selected</a></li>
-                                <li><a href="http://inspirehep.net/author/profile/Marco.Valente.1">All</a></li>
+                                <li><a href="http://inspirehep.net/author/profile/Marco.Valente.1">All publications</a></li>
                             </ul>
                         </li>
-                        <li class="page-scroll">
-                            <a
-                            onclick="javascript:reset_menus();$('#tab-awards-content').show();"
-                                href="index.html#awards">Awards</a>
+                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-talks-content').show();"
+                                href="index.html#talks">Talks</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="talks/">Talks</a>
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
                         </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
@@ -102,12 +105,12 @@
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
-                
+        
                 <!-- search box submenu -->
                 <div class="collapse" id="bs-example-navbar-collapse-2">
                     <gcse:search></gcse:search>
-                        </div>
-                
+                </div>
+        
             </div><!-- /.container-fluid -->
         </nav>
         
