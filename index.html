@@ -66,14 +66,18 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Home<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html">Introduction</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html#intro">Introduction</a></li>
                                 <li><a target="_blank" href="valente.pdf">CV (PDF)</a></li>
                             </ul>
                         </li>
-                        <li class="page-scroll">
-                            <a
-                            onclick="javascript:reset_menus();$('#tab-research-content').show();"
-                                href="index.html#research">Research</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Research<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="index.html#research">Research</a></li>
+                                <li><a href="research.html">Read all</a></li>
+                            </ul>
                         </li>
                         <!-- <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
@@ -85,29 +89,12 @@
                                 <li><a
                                 onclick="javascript:reset_menus();$('#tab-publications-content').show();"
                                         href="index.html#publications">Selected</a></li>
-                                <li><a href="http://inspirehep.net/author/profile/Marco.Valente.1">All</a></li>
+                                <li><a href="http://inspirehep.net/author/profile/Marco.Valente.1">All publications</a></li>
                             </ul>
                         </li>
                         <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-talks-content').show();"
                                 href="index.html#talks">Talks</a>
                         </li>
-                        <!-- <li class="page-scroll">
-                            <a
-                            onclick="javascript:reset_menus();$('#tab-awards-content').show();"
-                                href="index.html#awards">Awards</a> -->
-                        <!-- <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
-                        </li> -->
-                        <!-- <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
-                        </li> -->
-                        
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
                         </li>
@@ -274,7 +261,7 @@
                             <p>
                             Despite the extremely precise description of
                             subatomic phenomena provided by the Standard Model,
-                            several questions of physics are still open such as
+                            several questions of physics are still open today such as
                             the origin of dark matter, the matter-antimatter asymmetry of the universe,
                             the Higgs hierarchy mass problem and the unification of elementary forces at
                             high energy. Answering these questions defines my
