@@ -11,7 +11,7 @@
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        <link href="css/otherstyle.css" rel="stylesheet">
         
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -68,6 +68,7 @@
                             <ul class="dropdown-menu">
                                 <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html#intro">Introduction</a></li>
                                 <li><a target="_blank" href="valente.pdf">CV (PDF)</a></li>
+                                <!-- <li><a target="_blank" href="valente.pdf">PhD Thesis</a></li> -->
                             </ul>
                         </li>
                         <li class="page-scroll">
@@ -136,12 +137,34 @@
         <section  name="home" id="home" style="margin-top:40px">
             <div class="container">
                 <div align="left" class="col-md-3">
-                    <a target="_blank" href="images/valente.png">
-                        <img id="mobile-img" src="images/valente.png" border="0" height="300" alt=""></a>
+                    
+                    <!-- <img id="mobile-img" src="images/valente.png" border="0" -->
+                    <!-- height="300" alt=""> -->
+
+                    <img id="myImg" 
+                    src="images/valente.png"
+                    style="height:350px;border=0;" alt="Myself with the ATLAS detector at
+                    CERN.">
+                    
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+                    
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="imgmodal">
+                    
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                    </div>
+                    <!-- Modal images  -->
+                    <script type="text/javascript" src="js/modal.js"></script>
+                    
                 </div>
                 <div align="left" class="col-md-4">
                     <h2>Marco Valente
-                        <h5><i>Ph.D., Université de Genève - Switzerland (CH), 2020  </i></h5>
+                        <h5><i>Ph.D., Université de Genève (2020)  </i></h5>
                     </h2>
                     
                     <h4>Postdoctoral research associate<br>
@@ -168,7 +191,10 @@
                     class="btn-primary btn-xs">&raquo;</a><br></h4> -->
                     <p>
                         <!-- <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a> -->
-                        <a href="valente.pdf" class="btn-sm btn-primary" style="font-size: 16px;">CV (PDF)&raquo;</a>
+                        <a href="valente.pdf" class="btn-sm btn-primary"
+                        style="font-size: 16px;">CV (PDF) &raquo;</a>
+                        <a href="https://cds.cern.ch/record/2721059" class="btn-sm btn-primary"
+                        style="font-size: 16px;">Ph.D. Thesis &raquo;</a>
                     </p>
                 </div>
                 <b class="expandshow" style="display:none;" id="tab-1">
@@ -181,7 +207,7 @@
             </div>
         </section>
         
-        <!-- Home Section -->
+        <!-- Intro Section -->
         <section name="intro" id="intro">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -199,7 +225,7 @@
                         href="https://www.triumf.ca/">TRIUMF, Canada's particle accelerator centre</a>.
                         I am currently based at the European
                         Organization for Nuclear Research (CERN) and my research
-                        currently focuses on the
+                        focuses on the searches for new physics carried out by the
                         ATLAS experiment, one of the four main physics experiments of
                         the Large Hadron Collider (LHC). This webpage
                         illustrates my research, teaching and outreach activities. Further
@@ -219,7 +245,7 @@
                         <p>
                         <!-- <span class="label label-interest">Higgs Physics</span> -->
                         <span class="label label-interest">Supersymmetry</span>
-                        <span class="label label-interest">R-parity violation (RPV)</span>
+                        <span class="label label-interest">R-parity violating (RPV) SUSY</span>
                         <!-- <span class="label label-interest">Dark Matter</span> -->
                         <span class="label label-interest">Particle Flow</span>
                         <span class="label label-interest">Jets</span>
@@ -236,7 +262,7 @@
         </section>
 
 
-        <!-- Researcb Section -->
+        <!-- Research Section -->
         <section name="research" id="research">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -253,9 +279,24 @@
                                 class="btn btn-primary">Read all&raquo;</a></h2>
                         <div>
                             <p style="float: right;">
-                                <img
+                                <img id="myImg" 
                                 src="images/research/event_display_16PFlowJets.png"
-                                width="300px" border="1px">
+                                style="width:100%;max-width:400px;padding:5px" alt="Blah">
+                                
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                
+                                    <!-- The Close Button -->
+                                    <span class="close">&times;</span>
+                                
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="imgmodal">
+                                
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div id="caption"></div>
+                                </div>
+                                <!-- Modal images  -->
+                                <script type="text/javascript" src="js/modal.js"></script>
                             </p>
                             <p>
                             Despite the extremely precise description of
@@ -293,10 +334,13 @@
                         
                         <h2>Publications <a
                         href="http://inspirehep.net/author/profile/Marco.Valente.1"
-                                class="btn btn-primary">All Publications&raquo;</a></h2>
+                                class="btn btn-primary">All Publications &raquo;</a></h2>
                         <h4>
-                            <span class="label label-default">
+                            <span class="label label-warning">
                                 <a target="_blank" href="https://orcid.org/0000-0002-7239-2387"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://inspirehep.net/authors/1613622"><font color="white">INSPIRE</font></a>
                             </span>&nbsp;
                             <!-- <span class="label label-default">
                                 <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=35176841800"><font color="white">Scopus</font></a>
@@ -304,8 +348,6 @@
                             <span class="label label-default">
                                 <a target="_blank" href="https://www.researcherid.com/rid/O-2301-2016"><font color="white">ResearcherID</font></a>
                             </span> -->
-                            
-                            
                         </h4>
                         <h4>Journal Papers</h4><ul>
                             <li style="margin: 5px 0;">
@@ -336,7 +378,7 @@
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">ATLAS-CONF-2018-003</span>
                                 <span class="label label-interest">Supersymmetry</span>
-                                <span class="label label-interest">R-parity violation (RPV)</span>
+                                <span class="label label-interest">R-parity violating (RPV) SUSY</span>
                                 <a href="http://cdsweb.cern.ch/record/2308391/files/ATLAS-CONF-2018-003.pdf">"Reinterpretation of searches for
                                     supersymmetry in models with variable R-parity-violating coupling strength and long-lived R-hadrons"</a>, 
                                     <i>The ATLAS Collaboration</i>, Mar. 2018, <a href="https://cds.cern.ch/record/2308391" class="cdslink">CDS:2308391</a>.
@@ -360,6 +402,18 @@
                                 <i>The ATLAS Collaboration</i>, Sep. 2016, <a
                                 href="https://cds.cern.ch/record/2212161"
                                 class="cdslink">CDS:2212161</a>.
+                            </li>
+                        </ul>
+                        <h4>Conference proceedings</h4>
+                        <ul>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">ATLAS-CONF-2018-023</span>
+                                <span class="label label-interest">Missing Transverse Momentum (MET)</span>
+                                <span class="label label-interest">Particle Flow</span>
+                                <a href="https://cds.cern.ch/record/2625233/files/ATLAS-CONF-2018-023.pdf">"$E_{\text{T}}^{\text{miss}}$
+                                    performance in the ATLAS
+                                    detector using 2015-2016 LHC p-p collisions"</a>, <i>The ATLAS Collaboration</i>,
+                                Jun. 2018, <a href="https://cds.cern.ch/record/2625233" class="cdslink">CDS:2625233</a>.
                             </li>
                         </ul>
                         <h4>Others</h4>
@@ -567,7 +621,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         
         <!-- Home Section -->
         <section name="links" id="links">
@@ -584,6 +638,11 @@
                         <h2>Random Links</h2>
                         <ul>
                             <li><span class="label label-primary"><a target="_blank" href="https://github.com/MarcoValente"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
+                            <li><span class="label label-danger"><a
+                            target="_blank"
+                            href="https://visit.cern/tours/guided-tours"><font
+                            color="white">CERN tours</font></a></span>
+                            Book your own CERN guided tour (in person or virtual).</a></li>
                             <li><span class="label label-success"><font
                             color="white">Cycling</font></span> One of my
                             favorite hobbies :-)</a></li>
