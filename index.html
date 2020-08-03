@@ -131,24 +131,22 @@
                     <!-- <img id="mobile-img" src="images/valente.png" border="0" -->
                     <!-- height="300" alt=""> -->
 
-                    <img id="myImg" 
+                    <img id="myImg1" class="modalimg"
                     src="images/valente.png"
                     style="height:350px;border=0;" alt="Myself with the ATLAS detector at
                     CERN.">
                     
                     <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                    
+                    <div id="myModal1" class="modal">
                         <!-- The Close Button -->
-                        <span class="close">&times;</span>
-                    
+                        <span class="close" id="close1" >&times;</span>
                         <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="imgmodal">
-                    
+                        <img class="modal-content" id="imgmodal1">
                         <!-- Modal Caption (Image Text) -->
-                        <div id="caption"></div>
+                        <div class="caption" id="caption1"></div>
                     </div>
                     <!-- Modal images  -->
+                    <script> var number = '1';</script>
                     <script type="text/javascript" src="js/modal.js"></script>
                     
                 </div>
@@ -268,48 +266,54 @@
                         <h2>Research <a href="research.html"
                                 class="btn btn-primary">Read more &raquo;</a></h2>
                         <div>
-                            <!-- <p style="float: right;">
-                                <img id="myImg" 
-                                src="images/research/event_display_16PFlowJets.png"
-                                style="width:100%;max-width:400px;padding:5px" alt="Blah">
-                                
-                                <div id="myModal" class="modal">
-                                
-                                    <span class="close">&times;</span>
-                                
-                                    <img class="modal-content" id="imgmodal">
-                                
-                                    <div id="caption"></div>
-                                </div>
-                                <script type="text/javascript" src="js/modal.js"></script>
-                            </p> -->
                             <div style="float: right; margin: 2%; margin-top:0px">
 
                                 <figure class="image" style="float:right;">
-                                <img style="padding-bottom: 0px"
-                                src="images/research/higgs-self-feyn.pdf"
-                                width="320px" border="1px">
+                                <img id="myImg2" class="modalimg" style="padding-bottom: 0px" src="images/research/higgs-self-feyn.pdf" width="310px" border="1px" alt="Figure 1: Tri-linear Higgs self-coupling Feynman diagram.">
                                 <figcaption align="center"
                                     style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 2%; padding-bottom:0%" alt="SelfDiagram">
                                     Figure 1: Tri-linear Higgs self-coupling Feynman <br />diagram.</figcaption>
                                 </figure><br/>
 
+                                <!-- The Modal -->
+                                <div id="myModal2" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close" id="close2">&times;</span>
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="imgmodal2">
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div class="caption" id="caption2"></div>
+                                </div>
+                                <!-- Modal images  -->
+                                <script> var number = '2';</script>
+                                <script type="text/javascript" src="js/modal.js"></script>
+
                                 <figure class="image" style="float:right;">
-                                    <img
-                                    src="images/research/higgsinos_4b.pdf"
-                                    width="310px" border="1px">
+                                    <img id="myImg3" class="modalimg" src="images/research/higgsinos_4b.pdf" width="310px" border="1px" alt="Figure 2: SUSY Higgsino pair decaying to two Higgs and two gravitinos.">
                                     <figcaption align="center" style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 0%;"
                                     alt="BoxDiagram">Figure 2: SUSY Higgsino pair decaying to<br /> two Higgs and two gravitinos.</figcaption>
                                 </figure>
+                                <!-- The Modal -->
+                                <div id="myModal3" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close" id="close3">&times;</span>
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="imgmodal3">
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div class="caption" id="caption3"></div>
+                                </div>
+                                <!-- Modal images  -->
+                                <script> var number = '3';</script>
+                                <script type="text/javascript" src="js/modal.js"></script>
                             </div>
                             <p>
                             Despite the extremely precise description of
                             subatomic phenomena provided by the Standard Model,
                             several questions of physics are still open today such as
-                            the origin of dark matter, the matter-antimatter asymmetry of the universe,
-                            the small mass of the Higgs and the unification of elementary forces at
+                            the origin of dark matter, the matter-antimatter asymmetry of the universe
+                            and the unification of elementary forces at
                             high energy. Answering these questions defines my
-                            research program at the ATLAS experiment, one of the four main experiments at the Large Hadron Collider (LHC).
+                            research program at the ATLAS experiment, one of the main physics experiments at the Large Hadron Collider (LHC).
                             My research activities include:
                                 <ul>
                                     <li>Searches for Standard Model and BSM <b>di-Higgs production in final states with 4 b-jets </b>($HH\rightarrow b\overline{b}b\overline{b}$).</li>
@@ -323,17 +327,42 @@
                         </div>
                         <div style="padding-top : 2%">
                                 <figure class="image" style="float:left;">
-                                    <img src="images/research/event_display_16PFlowJets.png" width="545px" border="1px" align="left">
+                                    <img id="myImg4" class="modalimg" src="images/research/event_display_16PFlowJets.png" width="545px" border="1px" align="left" alt="Figure 3: Supersymmetric event candidate reconstructed with 19 jets and collected during the second Run of the LHC (2018).">
                                     <figcaption align="center"
                                         style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto; padding-top: 4%;"
                                         alt="19jetsSUSY">Figure 3: Supersymmetric event candidate reconstructed with 19 jets <br/> and collected during the second Run of the LHC (2018).</figcaption>
                                 </figure>
+                                <!-- The Modal -->
+                                <div id="myModal4" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close" id="close4">&times;</span>
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="imgmodal4">
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div class="caption" id="caption4"></div>
+                                </div>
+                                <!-- Modal images  -->
+                                <script> var number = '4';</script>
+                                <script type="text/javascript" src="js/modal.js"></script>
+
                                 <figure class="image" style="float:right;">
-                                    <img src="images/research/atlas-kappa-lambda-excl.pdf" width="560px" align="right">
+                                    <img id="myImg5" class="modalimg" src="images/research/atlas-kappa-lambda-excl.pdf" width="560px" align="right" alt="Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs cross-section vs. Higgs self-coupling strength $\kappa_\lambda$.">
                                     <figcaption align="center"
                                         style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 3%;"
                                         alt="DMContent">Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs cross-section<br /> vs. Higgs self-coupling strength $\kappa_\lambda$.</figcaption>
                                 </figure>
+                                <!-- The Modal -->
+                                <div id="myModal5" class="modal">
+                                    <!-- The Close Button -->
+                                    <span class="close" id="close5">&times;</span>
+                                    <!-- Modal Content (The Image) -->
+                                    <img class="modal-content" id="imgmodal5">
+                                    <!-- Modal Caption (Image Text) -->
+                                    <div class="caption" id="caption5"></div>
+                                </div>
+                                <!-- Modal images  -->
+                                <script> var number = '5';</script>
+                                <script type="text/javascript" src="js/modal.js"></script>
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,11 @@
 /* Style the Image Used to Trigger the Modal */
-#myImg {
+.modalimg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {
+.modalimg:hover {
     opacity: 0.7;
 }
 
@@ -43,7 +43,7 @@
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+.caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -56,7 +56,7 @@
 
 /* Add Animation - Zoom in the Modal */
 .modal-content,
-#caption {
+.caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
