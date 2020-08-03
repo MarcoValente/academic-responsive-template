@@ -1,5 +1,8 @@
-- [Introduction](#introduction)
-- [Hunting Supersymmetry in events with large jet multiplicities](#hunting-supersymmetry-in-events-with-large-jet-multiplicities)
+
+## Table of contents
+1. [Table of contents](#table-of-contents)
+2. [Introduction](#introduction)
+3. [Searches for Higgs pairs decaying to 4b](#searches-for-higgs-pairs-decaying-to-4b)
 
 ## Introduction
 
@@ -8,13 +11,14 @@
   <figcaption align="center" style="font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 3%; padding-bottom: 3%;" alt="DMContent">Figure 1: Current content of the universe.</figcaption>
   <!-- https://map.gsfc.nasa.gov/media/080998/index.html -->
 </figure>
+
 What are we made of? How was the universe created and which features of nature
 allowed stars, planets and life to exist today? These are only some of the
-fundamental questions that have fascinated humans for centuries, and only
-partial answers to these have been found today. Particle Physics provides a
+fundamental questions that have fascinated humans for centuries, and **only 
+partial answers to these questions have been found today**. Particle Physics provides a
 remarkable description of the atomic and subatomic world that, going back in time
-to the Big Bang, allows to explain many features of the current cosmological
-observations.  However, not all features of nature are currently understood. 
+to the Big Bang, allows to explain many of the features of the currently observed
+universe. However, not all these features are currently understood. 
 Some open questions of physics are:
 
 * The origin of dark matter, an unknown type of matter composing ~23% of the
@@ -22,9 +26,8 @@ Some open questions of physics are:
 * The matter-antimatter asymmetry of the universe.
 * The unification of electroweak, strong and gravity forces.
 
-One way to test our explanations to these questions is through dedicated physics
-experiments. A particular category are collider experiments, allowing to probe
-the existence of new phenomena at high energy. 
+One way to test our explanations to these questions is through **collider experiments**, allowing 
+to probe the existence of new phenomena at high energy. 
 
 <!-- ## The ATLAS detector at the Large Hadron Collider (LHC) -->
 <figure class="image" style="float: left; padding-top: 3%; padding-bottom: 2% ;padding-right: 3%;">
@@ -50,13 +53,30 @@ The detector is composed of:
 3. A *Muon Spectrometer* (MS) allowing to reconstruct tracks left by muons passing
    through the calorimeter system without being stopped.
 
-<!-- ## Particle Flow: Combining sub-detector informations for better reconstruction precision
-<figure class="image" style="float: right;">
-  <img width="800" src="images/../../images/research/ATLASdetector_empty.png" alt="ATLAS PFlow">
-  <figcaption align="center" style="font-style: italic;" alt="ATLASPFlow">Figure 1: An event with 19 jets recorded by ATLAS on 18 July 2018.</figcaption>
-</figure> -->
+## Searches for Higgs pairs decaying to 4b
+<figure class="image" style="float:right;">
+  <img style="padding-bottom: 0px" src="images/research/higgs-self-feyn.pdf" width="340px" border="1px">
+  <figcaption align="center" style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 2%; padding-bottom:4%" alt="SelfDiagram">Figure 1: Tri-linear Higgs self-coupling Feynman <br />diagram.</figcaption>
+</figure>
+Supersymmetry (SUSY) is one of the most appealing extensions of the Standard Model (SM),
+predicting the existence of a new hidden particle sector through the
+introduction of a fermion-boson symmetry. This theory offers an answer to many of the
+current open questions of physics, such as the origin of dark matter and the unification
+of elementary forces at high energy. SUSY particles could manifest themselves in
+different ways in the proton-proton (p-p) collisions of the Large Hadron
+Collider (LHC). 
 
-## Hunting Supersymmetry in events with large jet multiplicities
+![equation](https://latex.codecogs.com/svg.latex?\normalsize&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
+
+During the second Run of the LHC (2015-2018) I had the opportunity
+
+<figure class="image" style="float: right;">
+  <img width="500" src="images/research/atlas-kappa-lambda-excl.pdf" alt="ATLAS event with 16 jets">
+  <figcaption align="center" style="font-style: italic;" alt="PFLowSUSY">Figure 1: An event with 19 jets recorded by ATLAS on 18 July 2018.</figcaption>
+</figure>
+
+<!-- ## Hunting Supersymmetry in events with large jet multiplicities
 <figure class="image" style="float: right;">
   <img width="500" src="images/research/event_display_16PFlowJets.png" alt="ATLAS event with 16 jets">
   <figcaption align="center" style="font-style: italic;" alt="PFLowSUSY">Figure 1: An event with 19 jets recorded by ATLAS on 18 July 2018.</figcaption>
@@ -69,4 +89,4 @@ of elementary forces at high energy. SUSY particles could manifest themselves in
 different ways in the proton-proton (p-p) collisions of the Large Hadron
 Collider (LHC). 
 
-During the second Run of the LHC (2015-2018) I had the opportunity
+During the second Run of the LHC (2015-2018) I had the opportunity -->
