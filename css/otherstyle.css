@@ -1,3 +1,11 @@
+/* Style for cds links */
+.cdslink {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: .6px;
+    text-
+}
+
 /* Style the Image Used to Trigger the Modal */
 .modalimg {
     border-radius: 5px;
@@ -95,3 +103,4 @@
         width: 100%;
     }
 }
+
