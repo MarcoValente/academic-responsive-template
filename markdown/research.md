@@ -11,8 +11,8 @@ fundamental questions that have fascinated humans for centuries, and **only
 partial answers to these questions have been found today**. Particle Physics provides a
 remarkable description of the atomic and subatomic world also known as the *Standard Model of Particle Physics*. Going back in time
 to primordial phases of the universe after the Big Bang, the Standard Model allows to explain many of the current features of the
-universe. However, many other features are the observed universe are currently not well understand, and many fundamental questions of physics
-are still open such as:
+universe. However, not all these features are currently well understood and many different questions of physics
+are still open today such as:
 
 * Why are we made of matter and not of anti-matter?
 * What is the Dark Matter, an unknown type of matter composing ~23% of the
@@ -24,13 +24,13 @@ to probe the existence of new phenomena at high energy.
 
 ## *A* *T*oroidal *L*HC *A*pparatu*S* (*ATLAS*)
 
-My research focuses on the colliders domain, in particular on the searches for new phenomena carried
+My research focuses on the searches for new phenomena carried
 out by the [ATLAS experiment](https://atlas.cern), a multi-purpose physics detector
 composed today by a collaboration of more than 3000 scientists and 181
 institutions distributed around the world.
 
 <figure class="image" style="float: left; padding-top: 1%; padding-bottom: 1% ;padding-right: 1%;">
-  <img width="430" src="images/research/atlas_overview.png" alt="Section view of ATLAS" style=" display: block; margin-left: auto; margin-right;">
+  <img width="450" src="images/research/atlas_overview.png" alt="Section view of ATLAS" style=" display: block; margin-left: auto; margin-right;">
   <figcaption align="center" style="font-style: italic; display: block; margin-left: auto; margin-right; padding-top: 3%; padding-bottom: 3%;" alt="SectionViewATLAS">Figure 1: Section view of the ATLAS experiment at CERN.</figcaption>
 </figure>
 
@@ -40,15 +40,14 @@ Hadron Collider (LHC)](https://home.cern/science/accelerators/large-hadron-colli
 Geneva (Switzerland).
 The detector is composed of:
 1. An *Inner Detector* (ID) allowing to reconstruct tracks left by charged
-   particles passing through the detectors.
+   particles.
 2. A *Calorimeter system*, composed of an Electromagnetic (EM) and a Hadronic
-   (HAD) calorimeter, stopping both neutral and charged particles and allowing
-   to measure their energies.
-3. A *Muon Spectrometer* (MS) allowing to reconstruct tracks left by muons passing
+   (HAD) calorimeter, allowing to measure energies of both neutral and charged particles by stopping them inside its volume.
+3. A *Muon Spectrometer* (MS) allowing to reconstruct tracks left by muon particles passing
    through the calorimeter system without being trapped.
 4. A *Trigger and Data Acquisition System* (TDAQ) allowing to reduce the huge amount 
-   of data flow of the LHC, while retaining interesting collisions.
-
+   of data flow of the LHC while retaining interesting collisions.
+<div style="height:50px"></div>
 
 ## Jets and Missing Transverse Momentum
 
@@ -59,10 +58,14 @@ The detector is composed of:
 
 New high energy phenomena could manifest themselves in many different ways inside the pp collisions of the LHC. However, one possible feature of new physics phenomena could be the **anomalous production of resonances decaying to strongly interacting particles**, commonly referred to as quarks and gluons. Strongly interacting particles generally appear inside ATLAS as hadronic jets. **A jet is a spray of well collimated particles** generated from the [hadronization](https://en.wikipedia.org/wiki/Hadronization) of a quark or a gluon. The reconstruction, identification and calibration of such objects represents a vital task where I have been deeply involved in the last years, both on the online (i.e. the trigger) and offline side.
 
-Another important set of particles indicating the production of new phenomena at the LHC are the **invisible particles such as neutrinos and Dark Matter particles**. These particles are extremely difficult to be directly detected inside ATLAS as these could pass through the detector without leaving any significant electric signal. Even though the direct detection of these particles is complicated, the indirect identification of their production through the expected conservation of transverse momentum conservation is well possible. Indeed, the perfectly expected balance between the transverse momentum carried out by the visible and invisible particles allows to define the total transverse momentum carried out by the invisible particles as
+Another important set of particles indicating the production of new phenomena at the LHC are the **invisible particles such as neutrinos and Dark Matter**. These particles are extremely difficult to be directly detected as these could pass through the detector without leaving any significant electric signal. Even though the direct detection of these particles is complicated, the indirect identification of their production is well possible exploiting the expected conservation of transverse momentum in pp collisions. Indeed, the expected balance between the transverse momentum carried out by the visible and invisible particles allows to define the total transverse momentum carried out by the invisible particles in a collision as
 
 <figure class="image" style="float: center; padding-top: 0%; padding-bottom: 0% ;padding-right: 0%;">
   <img width="300" src="https://latex.codecogs.com/svg.latex?\normalsize&space;\mathbf{p}_T^\text{miss}=-\sum_\text{visible particles}\mathbf{p}_T^i" alt="" style=" display: block; margin-left: auto; margin-right: auto;">
 </figure>
 
 This quantity is generally referred to as the **Missing Transverse Momentum (MET)**. Due to the large dependency of this quantity from the correct functioning of the full set of ATLAS sub-detectors and the multiple pp interactions of the LHC (also known as pileup), this quantity has to be constantly monitored and validated during the data-taking periods of the LHC. In the past, I have been largely involved in the activities associated to this quantity.
+
+## Searches for Higgs pair-production in four b-jet final states
+
+The discovery of the Higgs boson in 2012 at CERN confirmed that Standard Model particles acquire mass through a process called *spontaneous-electroweak-symmetry breaking*.
