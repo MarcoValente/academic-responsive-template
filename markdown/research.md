@@ -5,29 +5,28 @@
   <!-- https://map.gsfc.nasa.gov/media/080998/index.html -->
 </figure>
 
-What are we made of? How was the universe created and which features of nature
+**What are we made of?** How was the universe created and which features of nature
 allowed stars, planets and life to exist today? These are only some of the
 fundamental questions that have fascinated humans for centuries, and **only 
 partial answers to these questions have been found today**. Particle Physics provides a
 remarkable description of the atomic and subatomic world also known as the *Standard Model of Particle Physics*. Going back in time
-to primordial phases of the universe after the Big Bang, the Standard Model allows to explain many of the current features of the
-universe. However, not all these features are currently well understood and many different questions of physics
+to primordial phases of the universe right after the Big Bang, the Standard Model allows to explain many of the current features of the
+universe. However, **not all these features are currently well understood** and many different questions of physics
 are still open today such as:
 
-* Why are we made of matter and not of anti-matter?
+* Why is the universe made of matter and not of anti-matter?
 * What is the Dark Matter, an unknown type of matter composing ~23% of the
   mass of our universe?
 * How can we unify gravity with the other elementary forces (electroweak and strong forces) at high energy?
 
 One way to test our explanations to these questions is through **collider experiments**, allowing 
-to probe the existence of new phenomena at high energy. 
+to probe the existence of new physics phenomena through collisions of elementary particles at high energy. 
 
 ## *A* *T*oroidal *L*HC *A*pparatu*S* (*ATLAS*)
 
 My research focuses on the searches for new phenomena carried
 out by the [ATLAS experiment](https://atlas.cern), a multi-purpose physics detector
-composed today by a collaboration of more than 3000 scientists and 181
-institutions distributed around the world.
+built by a collaboration composed of 3000 scientists and 181 institutions distributed across the world.
 
 <figure class="image" style="float: left; padding-top: 1%; padding-bottom: 1% ;padding-right: 1%;">
   <img width="450" src="images/research/atlas_overview.png" alt="Section view of ATLAS" style=" display: block; margin-left: auto; margin-right;">
@@ -49,7 +48,7 @@ The detector is composed of:
    of data flow of the LHC while retaining interesting collisions.
 <div style="height:50px"></div>
 
-## Jets and Missing Transverse Momentum
+<!-- ## Jets and Missing Transverse Momentum
 
 <figure class="image" style="float: right; padding-top: 0%; padding-bottom: 0% ;padding-right: 0%;">
   <img width="500" src="images/research/Sketch_PartonParticleCaloJet.png" alt="Section view of ATLAS" style=" display: block; margin-left: auto; margin-right;">
@@ -64,8 +63,8 @@ Another important set of particles indicating the production of new phenomena at
   <img width="300" src="https://latex.codecogs.com/svg.latex?\normalsize&space;\mathbf{p}_T^\text{miss}=-\sum_\text{visible particles}\mathbf{p}_T^i" alt="" style=" display: block; margin-left: auto; margin-right: auto;">
 </figure>
 
-This quantity is generally referred to as the **Missing Transverse Momentum (MET)**. Due to the large dependency of this quantity from the correct functioning of the full set of ATLAS sub-detectors and the multiple pp interactions of the LHC (also known as pileup), this quantity has to be constantly monitored and validated during the data-taking periods of the LHC. In the past, I have been largely involved in the activities associated to this quantity.
+This quantity is generally referred to as the **Missing Transverse Momentum (MET)**. Due to the large dependency of this quantity from the correct functioning of the full set of ATLAS sub-detectors and the multiple pp interactions of the LHC (also known as pileup), this quantity has to be constantly monitored and validated during the data-taking periods of the LHC. In the past, I have been largely involved in the activities associated to this quantity. -->
 
-## Searches for Higgs pair-production in four b-jet final states
+## Searches for supersymmetry and Higgs-boson pair production
 
 The discovery of the Higgs boson in 2012 at CERN confirmed that Standard Model particles acquire mass through a process called *spontaneous-electroweak-symmetry breaking*.
