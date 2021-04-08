@@ -103,3 +103,9 @@
         width: 100%;
     }
 }
+
+.timeline-Body {
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius:5px
+}
