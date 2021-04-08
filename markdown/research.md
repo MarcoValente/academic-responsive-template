@@ -48,7 +48,18 @@ The detector is composed of:
    of data flow of the LHC while retaining interesting collisions.
 <div style="height:50px"></div>
 
-<!-- ## Jets and Missing Transverse Momentum
+## Searches Higgs-boson pair production and Supersymmetry (SUSY)
+
+<figure class="image" style="float: right; padding-top: 0%; padding-bottom: 0% ;padding-right: 0%;">
+  <img width="450" src="images/research/SSB.png" alt="Section view of ATLAS" style=" display: block; margin-left: auto; margin-right;">
+  <figcaption align="center" style="font-style: italic; display: block; margin-left: auto; margin-right; padding-top: 0%; padding-bottom: 0%;" alt="">Figure 1: Section view of the ATLAS experiment at CERN.</figcaption>
+</figure>
+
+The discovery of the Higgs boson in 2012 finally confirmed that Standard Model particles acquire mass through a process known as *Spontaneous-Electroweak-Symmetry Breaking* (or also *Brout–Englert–Higgs mechanism*). This discovery also tells us that, in the history of the universe, **a phase-transition occurred approximately 10^-11^ s after the Big-Bang**, marking the passage from a universe composed of massless particles (*i.e.* the EW symmetry is unbroken) to a universe where particles are massive. This epoch is known as the **Electroweak Phase Transition (EWPT) of the universe** and only **very little information about this phase-transition is known today**.
+
+In particular, the EWPT epoch could contain the key to **explain the baryon-antibaryon asymmetry of the universe** through a theoretical process known as **Electroweak Baryogenesis (EWB)**. However, similarly to other cosmological problems such as the [flatness of the universe](https://en.wikipedia.org/wiki/Flatness_problem) or the [horizon problem](https://en.wikipedia.org/wiki/Horizon_problem), EWB requires the presence of a **very fast expansion of the early universe** known as [cosmological inflation](https://en.wikipedia.org/wiki/Inflation_(cosmology)) that the Standard Model currently fails to predict.
+
+## Jets and Missing Transverse Momentum
 
 <figure class="image" style="float: right; padding-top: 0%; padding-bottom: 0% ;padding-right: 0%;">
   <img width="500" src="images/research/Sketch_PartonParticleCaloJet.png" alt="Section view of ATLAS" style=" display: block; margin-left: auto; margin-right;">
@@ -63,8 +74,4 @@ Another important set of particles indicating the production of new phenomena at
   <img width="300" src="https://latex.codecogs.com/svg.latex?\normalsize&space;\mathbf{p}_T^\text{miss}=-\sum_\text{visible particles}\mathbf{p}_T^i" alt="" style=" display: block; margin-left: auto; margin-right: auto;">
 </figure>
 
-This quantity is generally referred to as the **Missing Transverse Momentum (MET)**. Due to the large dependency of this quantity from the correct functioning of the full set of ATLAS sub-detectors and the multiple pp interactions of the LHC (also known as pileup), this quantity has to be constantly monitored and validated during the data-taking periods of the LHC. In the past, I have been largely involved in the activities associated to this quantity. -->
-
-## Searches for supersymmetry and Higgs-boson pair production
-
-The discovery of the Higgs boson in 2012 at CERN confirmed that Standard Model particles acquire mass through a process called *spontaneous-electroweak-symmetry breaking*.
+This quantity is generally referred to as the **Missing Transverse Momentum (MET)**. Due to the large dependency of this quantity from the correct functioning of the full set of ATLAS sub-detectors and the multiple pp interactions of the LHC (also known as pileup), this quantity has to be constantly monitored and validated during the data-taking periods of the LHC. In the past, I have been largely involved in the activities associated to this quantity.
