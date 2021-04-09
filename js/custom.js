@@ -35,7 +35,7 @@ function internal_link() {
             case "intro":        $('#tab-1-content').show(); break;
             case "news":         $('#tab-2-content').show(); break;
             case "publications": $('#tab-3-content').show(); break;
-            case "courses":      $('#tab-4-content').show(); break;
+            case "teaching":      $('#tab-4-content').show(); break;
             case "awards":       $('#tab-5-content').show(); break;
             case "service":      $('#tab-6-content').show(); break;
             case "contact":      $('#tab-9-content').show(); break;

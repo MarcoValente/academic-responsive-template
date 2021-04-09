@@ -64,7 +64,7 @@ Short description of the contents included in this release.
 
 ## CR (Course Responsive) Template
 
-Also check out the sister template designated for courses: https://github.com/dmsl/course-responsive-template
+Also check out the sister template designated for teaching: https://github.com/dmsl/course-responsive-template
 
 ## VCard
 

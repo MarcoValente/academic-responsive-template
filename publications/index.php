@@ -120,7 +120,7 @@
                     <a href="../talks/">Talks</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="../index.html#courses">Courses</a>
+                    <a href="../index.html#teaching">Teaching</a>
                 </li>
                 <li class="page-scroll">
                     <a href="../index.html#systems">Systems</a>
