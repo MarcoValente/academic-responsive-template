@@ -34,97 +34,24 @@
           MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
         </script>
         <script type="text/javascript"
-            src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
         </script>
+        <script src="js/includehtml.js"></script>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/site.webmanifest">
     </head>
     
     <body id="page-top" class="index">
         
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- <span><a href="https://www.triumf.ca"><img border="0" width="250" src="images/unilogo.jpg"/></a></span> -->
-                </div>
-                
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Home<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html#intro">Introduction</a></li>
-                                <li><a target="_blank" href="valente.pdf">CV (PDF)</a></li>
-                                <li><a target="_blank" href="https://cds.cern.ch/record/2721059">PhD Thesis</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Research<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="index.html#research">Research</a></li>
-                                <li><a href="research.html">Read all</a></li>
-                            </ul>
-                        </li>
-                        <!-- <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
-                        </li> -->
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Publications<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a
-                                onclick="javascript:reset_menus();$('#tab-publications-content').show();"
-                                        href="index.html#publications">Selected</a></li>
-                                <li><a href="http://inspirehep.net/author/profile/Marco.Valente.1">All publications</a></li>
-                            </ul>
-                        </li>
-                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-talks-content').show();"
-                                href="index.html#talks">Presentations</a>
-                        </li>
-                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-links-content').show();"
-                                href="index.html#tab-links-content">Links</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-                
-                <!-- search box submenu -->
-                <div class="collapse" id="bs-example-navbar-collapse-2">
-                    <gcse:search></gcse:search>
-                        </div>
-                
-            </div><!-- /.container-fluid -->
-        </nav>
-        
-        <section>
-            <!-- Place this tag where you want the search results to render -->
-            <gcse:searchresults-only></gcse:searchresults-only>
-                </section>
+        <div data-include="navigation"></div>
         
         <!-- Home Section -->
-        <section  name="home" id="home" style="margin-top:40px">
+        <section  name="home" id="home" style="margin-top:60px">
             <div class="container">
                 <div align="left" class="col-md-3">
                     <img id="myImg1" class="modalimg"
@@ -175,8 +102,8 @@
                     class="btn-primary btn-xs">&raquo;</a><br></h4> -->
                     <p>
                         <!-- <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a> -->
-                        <a href="valente.pdf" class="btn-sm btn-primary" target="_blank"
-                        style="font-size: 16px;">CV (PDF) &raquo;</a>
+                        <!-- <a href="valente.pdf" class="btn-sm btn-primary" target="_blank" -->
+                        <!-- style="font-size: 16px;">CV (PDF) &raquo;</a> -->
                         <a href="https://cds.cern.ch/record/2721059" target="_blank" class="btn-sm btn-primary"
                         style="font-size: 16px;">PhD Thesis &raquo;</a>
                     </p>
@@ -210,31 +137,30 @@
                         <hr class="star-primary">
                         
                         <p class="lead">
-                        Hello! I am a Postdoctoral Researcher at <a target="_blank" href="https://www.triumf.ca/">TRIUMF, Canada's particle accelerator centre</a>.
-                        I am currently based at the <a href="https://home.cern" target="_blank">European Organization for Nuclear Research (CERN)</a> and my research
+                        Hello! I am a Postdoctoral Researcher at <a target="_blank" href="https://www.triumf.ca/">TRIUMF, Canada's particle accelerator centre</a>. My research
                         focuses on the searches for new physics carried out by the <a href="https://atlas.cern" target="_blank">ATLAS experiment</a>, one of the four 
                         main physics experiments of the <a href="https://home.cern/science/accelerators/large-hadron-collider" target="_blank">Large Hadron Collider 
-                        (LHC)</a>. This webpage illustrates my research, teaching and outreach activities. Further details about my research interests are provided 
+                        (LHC)</a> at the <a href="https://home.cern" target="_blank">European Organization for Nuclear Research (CERN)</a>. This webpage illustrates my research, teaching and outreach activities. Further details about my research interests are provided 
                         below in the <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">research tab</a>. For any additional 
-                        question or information about my work, do not hesitate to contact me following the informations provided in the <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">contact section</a>!
+                        enquire about my work, do not hesitate to contact me following the informations provided in the <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">contact section</a> below!
                         </p>
                         </p>
                         <p>
                         <h4>Research interests:</h4>
                         </p>
                         <p>
-                        <!-- <span class="label label-interest">Higgs Physics</span> -->
+                        <span class="label label-interest">Higgs-boson pairs</span>
                         <span class="label label-interest">Supersymmetry</span>
                         <!-- <span class="label label-interest">R-parity violating (RPV) SUSY</span> -->
                         <!-- <span class="label label-interest">Dark Matter</span> -->
                         <!-- <span class="label label-interest">Particle Flow</span> -->
                         <span class="label label-interest">Jets</span>
                         <span class="label label-interest">Missing Transverse Momentum (MET)</span>
-                        <!-- <span class="label label-interest">Silicon-based strip tracking detectors</span> -->
                         <span class="label label-interest">Triggers</span>
                         <span class="label label-interest">HL-LHC</span>
                         <!-- <span class="label label-interest">Machine Learning</span> -->
                         <span class="label label-interest">Future Colliders</span>
+                        <span class="label label-interest">Silicon detectors</span>
                     </div>
                     
                 </div>
@@ -265,15 +191,16 @@
                     <div class="allshow" style="display:none;" id="tab-research-content">
                         <hr class="star-primary">
         
-                        <h2>Research <a href="research.html"
-                                class="btn btn-primary">Read more &raquo;</a></h2>
+                        <h2>Research 
+                            <!-- <a href="research.html" class="btn btn-primary">Read more &raquo;</a> -->
+                        </h2>
                         <div>
-                            <div style="float: right; margin: 1%; margin-top:0px">
+                            <div style="float: right; margin: 1%; margin-top:0px; width: 40%">
 
                                 <figure class="image" style="float:right;">
-                                <img id="myImg2" class="modalimg" style="padding-bottom: 0px" src="images/research/higgs-self-feyn.pdf" width="380px" border="1px" alt="Figure 1: Tri-linear Higgs self-coupling Feynman diagram.">
+                                <img id="myImg2" class="modalimg" style="float: right; width: 90%;" src="images/research/higgs-self-feyn.png" alt="Figure 1: Tri-linear Higgs self-coupling Feynman diagram."><br/>
                                 <figcaption align="center"
-                                    style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 2%; padding-bottom:0%" alt="SelfDiagram">
+                                    style="float: right; align: center; font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 2%; padding-bottom:0%" alt="SelfDiagram">
                                     Figure 1: Tri-linear Higgs self-coupling diagram.</figcaption>
                                 </figure><br/>
 
@@ -293,8 +220,7 @@
                                 <!-- Figure jet -->
 
                                 <figure class="image" style="float:right;">
-                                    <img id="myImg3" class="modalimg" style="padding-bottom: 0px; margin-top: 40px;" src="images/research/Sketch_PartonParticleCaloJet.png"
-                                        width="400px" border="1px" alt="Figure 2: Sketch of a hadronic jet resulting from a pp collision of the LHC (Credits: CMS Collaboration).">
+                                    <img id="myImg3" class="modalimg" style="width:90%; padding-bottom: 0px; margin-top: 15px;" src="images/research/Sketch_PartonParticleCaloJet.png" border="1px" alt="Figure 2: Sketch of a hadronic jet resulting from a pp collision of the LHC (Credits: CMS Collaboration).">
                                     <figcaption align="center"
                                         style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 2%; padding-bottom:0%"
                                         alt="SelfDiagram">
@@ -321,23 +247,22 @@
                             several questions of physics are still open today such as
                             the origin of Dark Matter, the matter-antimatter asymmetry of the universe
                             and the unification of elementary forces at
-                            high energy. Looking for answers to these questions defines my
-                            research program at the <a href="https://atlas.cern" target="_blank">ATLAS experiment</a>.
-                            My current and past research activities include:
+                            high energy. Look for answers to these questions defines my
+                            research activities at the <a href="https://atlas.cern" target="_blank">ATLAS experiment</a>.
+                            These activities include:
                                 <ul>
-                                    <li>Searches for <b>Higgs-boson pair production</b> in final states with 4 b-jets ($HH\rightarrow b\overline{b}b\overline{b}$).</li>
-                                    <li>Searches for <b>supersymmetric particles</b> in large jet multiplicities signatures.</li>
+                                    <li>Searches for <b>Higgs-boson pair</b> production and <b>supersymmetric particles</b> in hadronic final states.</li>
                                     <li>Reconstruction and triggering of <b>jets</b> and <b>Missing Transverse Momentum (MET)</b>.</li>
-                                    <li><b>Silicon strip detectors</b> for the ATLAS HL-LHC Inner Tracker (ITk) upgrade.</li>
+                                    <li><b>Detector upgrades and physics projections</b> for the High Luminosity LHC.</li>
                                 </ul>
                             </p>
                         </div>
-                        <div style="padding-top : 2%">
+                        <div style="padding-top : 3.5%">
                                 <figure class="image" style="float:left;">
-                                    <img id="myImg4" class="modalimg" src="images/research/event_display_13PFlowJets.png" width="545px" border="1px" align="left" alt="Figure 3: Supersymmetric event candidate reconstructed with 16 jets and collected during the second Run of the LHC (2016).">
+                                    <img id="myImg4" class="modalimg" src="images/research/event_display_13PFlowJets.png" width="560px" border="1px" align="left" alt="Figure 3: Supersymmetric event candidate reconstructed with 16 jets and collected during the second Run of the LHC (2016).">
                                     <figcaption align="center"
                                         style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto; padding-top: 4%;"
-                                        alt="19jetsSUSY">Figure 3: Supersymmetric event candidate reconstructed with 16 jets <br/> and collected during the second Run of the LHC (2016).</figcaption>
+                                        alt="16jetsSUSY">Figure 3: Supersymmetric event candidate reconstructed with 16 jets <br/> and collected during the second Run of the LHC (2016).</figcaption>
                                 </figure>
                                 <!-- The Modal -->
                                 <div id="myModal4" class="modal">
@@ -353,10 +278,10 @@
                                 <script type="text/javascript" src="js/modal.js"></script>
 
                                 <figure class="image" style="float:right;">
-                                    <img id="myImg5" class="modalimg" src="images/research/atlas-kappa-lambda-excl.pdf" width="560px" align="right" alt="Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs cross-section with respect to Higgs self-coupling strength $\kappa_\lambda$.">
+                                    <img id="myImg5" class="modalimg" src="images/research/atlas-kappa-lambda-excl.png" width="510px" align="right" alt="Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs cross-section with respect to Higgs self-coupling strength $\kappa_\lambda$.">
                                     <figcaption align="center"
                                         style="font-size:medium; font-style: italic; display: block; margin-left: auto; margin-right: auto;padding-top: 3%;"
-                                        alt="DMContent">Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs cross-section<br /> with respect to Higgs self-coupling strength $\kappa_\lambda$.</figcaption>
+                                        alt="DMContent">Figure 4: Combined ATLAS exclusion limits of the di-Higgs cross-section<br /> with respect to Higgs self-coupling modifier $\kappa_\lambda$.</figcaption>
                                 </figure>
                                 <!-- The Modal -->
                                 <div id="myModal5" class="modal">
@@ -428,9 +353,33 @@
                         <h4>ATLAS Public Documents</h4>
                         <ul>
                             <li style="margin: 5px 0;">
+                                <span class="label label-success">ATLAS-CONF-2021-052</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <a href="https://cds.cern.ch/record/2786865/files/ATLAS-CONF-2021-052.pdf" target="_blank">"Combination of searches for non-resonant and resonant Higgs boson pair production in the $b\bar{b}\gamma\gamma$, $b\bar{b}\tau^{+}\tau^{-}$ and $b\bar{b}b\bar{b}$ decay channels using $pp$ collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector"</a>, <i>The ATLAS Collaboration</i>,
+                                Oct. 2021, <a
+                                href="https://cds.cern.ch/record/2786865" target="_blank"
+                                class="cdslink">CDS:2786865</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">ATLAS-CONF-2021-035</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <a href="http://cdsweb.cern.ch/record/2777861/files/ATLAS-CONF-2021-035.pdf" target="_blank">"Search for resonant pair production of Higgs bosons in the $b\bar{b}b\bar{b}$ final state using $pp$ collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector"</a>, <i>The ATLAS Collaboration</i>,
+                                Aug. 2021, <a
+                                href="http://cdsweb.cern.ch/record/2777861" target="_blank"
+                                class="cdslink">CDS:2777861</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">ATL-PHYS-PUB-2021-023</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <span class="label label-interest">HL-LHC</span>
+                                <a href="https://cds.cern.ch/record/2776650/files/ATL-PHYS-PUB-2021-023.pdf" target="_blank">"Expected performance of the ATLAS detector under different High-Luminosity LHC conditions"</a>, <i>The ATLAS Collaboration</i>,
+                                Jul. 2021, <a
+                                href="https://cds.cern.ch/record/2776650" target="_blank"
+                                class="cdslink">CDS:2776650</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
                                 <span class="label label-success">ATLAS-CONF-2018-023</span>
                                 <span class="label label-interest">Missing Transverse Momentum (MET)</span>
-                                <!-- <span class="label label-interest">Particle Flow</span> -->
                                 <a href="https://cds.cern.ch/record/2625233/files/ATLAS-CONF-2018-023.pdf" target="_blank">"$E_{\text{T}}^{\text{miss}}$ performance in the ATLAS
                                 detector using 2015-2016 LHC p-p collisions"</a>, <i>The ATLAS Collaboration</i>,
                                 Jun. 2018, <a
@@ -468,13 +417,12 @@
                         <h4>Conference proceedings</h4>
                         <ul>
                             <li style="margin: 5px 0;">
-                                <span class="label label-success">ATLAS-CONF-2018-023</span>
-                                <span class="label label-interest">Missing Transverse Momentum (MET)</span>
+                                <span class="label label-success">PoS</span>
+                                <span class="label label-interest">HL-LHC</span>
+                                <span class="label label-interest">Triggers</span>
                                 <!-- <span class="label label-interest">Particle Flow</span> -->
-                                <a href="https://cds.cern.ch/record/2625233/files/ATLAS-CONF-2018-023.pdf" target="_blank" >"$E_{\text{T}}^{\text{miss}}$
-                                    performance in the ATLAS
-                                    detector using 2015-2016 LHC p-p collisions"</a>, <i>The ATLAS Collaboration</i>,
-                                Jun. 2018, <a href="https://cds.cern.ch/record/2625233" target="_blank" class="cdslink">CDS:2625233</a>.
+                                <a href="https://pos.sissa.it/364/184/" target="_blank" >"The ATLAS Trigger and Data Acquisition Upgrades for the High-Luminosity LHC (HL-LHC)"</a>, <i>M. Valente (ATLAS Collaboration)</i>, Proceedings of European Physical Society Conference on High Energy Physics PoS (EPS-HEP2019),
+                                2019, <a href="https://cds.cern.ch/record/2692161" target="_blank" class="cdslink">CDS:2692161</a>, <a href="https://pos.sissa.it/364/184/" target="_blank" class="cdslink">DOI:10.22323/PoS(2020)1.364.0184</a>.
                             </li>
                         </ul>
                         <h4>Others</h4>
@@ -501,15 +449,24 @@
         
                     <b class="noshow" style="display:none;" id="tab-3">
                         <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;"
-                            onclick="javascript:$('#tab-talks-content').toggle();">Talks and Posters<span
+                            onclick="javascript:$('#tab-talks-content').toggle();">Presentations<span
                                 class="glyphicon glyphicon-chevron-down"></span></button>
                     </b>
-                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                    <div class="allshow" style="display:none;" id="tab-talks-content">
                         <hr class="star-primary">
         
                         <h2>Presentations</h2>
                         <h4>Selected Talks</h4>
                         <ul>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">Higgs 2021</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <a
+                                href="https://cds.cern.ch/record/2788852" target="_blank" >"Di-Higgs results - twice the Higgs, twice the fun"</a>, <i>M.
+                                Valente (ATLAS Collaboration)</i>,
+                                Higgs 2021,
+                                <a href="https://cds.cern.ch/record/2788852" ctarget="_blank" class="cdslink">CDS:2788852</a>.
+                            </li>
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">PHENO 2020</span>
                                 <span class="label label-interest">Supersymmetry</span>
@@ -538,8 +495,20 @@
                                 <a href="https://cds.cern.ch/record/2632860" target="_blank" class="cdslink">CDS:2632860</a>.
                             </li>
                         </ul>
-                        <h4>Posters</h4>
+                        <h4>Selected posters</h4>
                         <ul>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">TIPP 2021</span>
+                                <span class="label label-interest"></span>
+                                <span class="label label-interest">Silicon detectors</span>
+                                <span class="label label-interest">HL-LHC</span>
+                                <a href="https://indico.cern.ch/event/981823/contributions/4295470/attachments/2250079/3816858/poster_459.pdf"
+                                    target="_blank">"Testbeam studies of ATLAS ITk strip modules at DESY-II testbeam facility"</a>, <i>M.
+                                    Valente (ATLAS Collaboration)</i>,
+                                International Conference on Technology and Instrumentation in Particle Physics (TIPP 2021),
+                                <a href="https://indico.cern.ch/event/981823/contributions/4295470/" target="_blank"
+                                    class="cdslink">contribution link</a>.
+                            </li>
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">EPS-HEP 2019</span>
                                 <span class="label label-interest">Triggers</span>
@@ -553,6 +522,7 @@
                                 <a href="https://cds.cern.ch/record/2683456" target="_blank" 
                                     class="cdslink">CDS:2683456</a>.
                             </li>
+                            
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">LHCC 2017</span>
                                 <span class="label label-interest">Missing
@@ -642,15 +612,15 @@
                             </li>
                             <li>
                                 <span class="label label-success">Ph.D.</span> (completed) <a target="_blank" href="https://www.cs.ucy.ac.cy/~cs07cc6/">Constantinos Costa</a>, Instructor/Researcher, University of Cyprus, Cyprus.
-                            </li> -->
-                           <!-- <li>
+                            </li>
+                           <li>
                                 <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="https://www.cs.ucy.ac.cy/~glarko01/">Georgios Larkou</a>, University of Cyprus, Cyprus.
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         <!-- Home Section -->
         <section name="links" id="links">
@@ -703,17 +673,17 @@
                                     Vancouver (BC V6T 2A3), Canada<br />
                                 </p>
                             </div>
-        
+                        
                             <div align="left" class="col-md-3">
                                 <h4>CONTACT VCARD</h4>
                                 <p>
                                     <a href="valente.vcf"><img src="images/qr/Marco_Valente.png" border="0" width="150"><br>
                                         VCard file(.vcf)</a>
-        
+                        
                                     <!--   <a href="valente.vcf" class="btn btn-primary">Get VCF Card &raquo;</a>-->
                                 </p>
                             </div>
-        
+                        
                             <div align="left" class="col-md-3">
                                 <h4>CERN ADDRESS</h4>
                                 <p>Marco Valente<br />
@@ -728,15 +698,16 @@
                                 </p>
                                 </p>
                             </div>
-        
+                        
                             <div align="left" class="col-md-3">
                                 <h4>OFFICE DIRECTIONS</h4>
-                                <p><a href="https://maps.cern.ch/mapsearch/mapsearch.htm?n=[%2732/2-A10%27]"
-                                        target="_blank"><img src="images/qr/officeB32_qr.png" border="0" width="150"><br>Office
+                                <p><a href="https://maps.cern.ch/mapsearch/mapsearch.htm?n=[%2732/2-A10%27]" target="_blank"><img
+                                            src="images/qr/officeB32_qr.png" border="0" width="150"><br>Office
                                         (CERN): B32/2-A10</a>
                                 </p>
                             </div>
                         </div>
+                        <!-- <div data-include="contact"></div> -->
                         <hr class="star-primary">
                     </div>
         </section>
