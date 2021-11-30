@@ -637,78 +637,130 @@
                             color="white">Cycling</font></span> One of my
                             favorite hobbies :-)</a></li>
                         </ul>
+
+
                         <!-- Photo gallery -->
-                        <!-- Container for the image gallery -->
-                        <div class="container-gallery">
-                        
-                            <!-- Full-width images with number text -->
-                            <div class="mySlides">
-                                <div class="numbertext">1 / 6</div>
-                                <img src="images/gallery/IMG_6088.jpg" style="width:100%">
+
+                        <!-- begin of modal gallery -->
+                        <!-- Images used to open the lightbox -->
+                        <div class="row-modalgallery">
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6189.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
                             </div>
-                        
-                            <div class="mySlides">
-                                <div class="numbertext">2 / 6</div>
-                                <img src="images/gallery/IMG_6265.jpg" style="width:100%">
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6265.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
                             </div>
-                        
-                            <div class="mySlides">
-                                <div class="numbertext">3 / 6</div>
-                                <img src="images/gallery/IMG_6189.jpg" style="width:100%">
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6088.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
                             </div>
-                        
-                            <div class="mySlides">
-                                <div class="numbertext">4 / 6</div>
-                                <img src="images/gallery/IMG_6777.jpg" style="width:100%">
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6777.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
                             </div>
-                        
-                            <div class="mySlides">
-                                <div class="numbertext">5 / 6</div>
-                                <img src="images/gallery/IMG_6952.jpg" style="width:100%">
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6952.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
                             </div>
-                        
-                            <div class="mySlides">
-                                <div class="numbertext">6 / 6</div>
-                                <img src="images/gallery/IMG_6396.jpg" style="width:100%">
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6396.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
                             </div>
-                        
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        
-                            <!-- Image text -->
-                            <div class="caption-container">
-                                <p id="caption"></p>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_5693.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
                             </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_5473.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                            </div>
+                        </div>
                         
-                            <!-- Thumbnail images -->
-                            <div class="row">
-                                <div class="column">
-                                    <img class="demo cursor" src="images/gallery/IMG_6088.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        <!-- The Modal/Lightbox -->
+                        <div id="myModalGallery" class="modalgallery">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modalgallery-content">
+
+                                <div class="mySlides">
+                                    <div class="numbertext">1 / 8</div>
+                                    <img src="images/gallery/IMG_6189.jpg" style="width:100%">
                                 </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/gallery/IMG_6265.jpg" style="width:100%" onclick="currentSlide(2)"
-                                        alt="Cinque Terre">
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">2 / 8</div>
+                                    <img src="images/gallery/IMG_6265.jpg" style="width:100%">
                                 </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/gallery/IMG_6189.jpg" style="width:100%" onclick="currentSlide(3)"
-                                        alt="Mountains and fjords">
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">3 / 8</div>
+                                    <img src="images/gallery/IMG_6088.jpg" style="width:100%">
                                 </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/gallery/IMG_6777.jpg" style="width:100%" onclick="currentSlide(4)"
-                                        alt="Northern Lights">
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">4 / 8</div>
+                                    <img src="images/gallery/IMG_6777.jpg" style="width:100%">
                                 </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/gallery/IMG_6952.jpg" style="width:100%" onclick="currentSlide(5)"
-                                        alt="Nature and sunrise">
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">5 / 8</div>
+                                    <img src="images/gallery/IMG_6952.jpg" style="width:100%">
                                 </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/gallery/IMG_6396.jpg" style="width:100%" onclick="currentSlide(6)"
-                                        alt="Snowy Mountains">
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 8</div>
+                                    <img src="images/gallery/IMG_6396.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">7 / 8</div>
+                                    <img src="images/gallery/IMG_5693.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">8 / 8</div>
+                                    <img src="images/gallery/IMG_5473.jpg" style="width:100%">
+                                </div>
+                        
+                                <!-- Next/previous controls -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                                <!-- Caption text -->
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+
+                                <!-- Thumbnail image controls -->
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6189.jpg" onclick="currentSlide(1)" alt="The beauty of autumn trees in Randa (Switzerland).">
+                                </div>
+                        
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6265.jpg" onclick="currentSlide(2)" alt="The Matterhorn, the famous Swiss peak in Zermatt (Switzerland).">
+                                </div>
+
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6088.jpg" onclick="currentSlide(3)" alt="The amazing view from the top of Monte Generoso in Capolago ( Switzerland). I was lucky enough to be born at the bottom of this beautiful mountain. ;)">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6777.jpg" onclick="currentSlide(4)" alt="The iconic village of Foroglio, made of stone houses typical of the italian-speaking region of Switzerland.">
+                                </div>
+
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6952.jpg" onclick="currentSlide(5)" alt="Myself at an altitude of 3000m :)">
+                                </div>
+
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6396.jpg" onclick="currentSlide(6)" alt="My bike near the Rhone river in Geneva (Switzerland)">
+                                </div>
+
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_5693.jpg" onclick="currentSlide(7)" alt="">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_5473.jpg" onclick="currentSlide(8)" alt="The magnificent view of the Leman lake and the castle of Chillon in Montreux (Switzerland).">
                                 </div>
                             </div>
                         </div>
-                        <!-- end of photo gallery -->
+
+                        <!-- end of modal gallery -->
+
                     </div>
                 </div>
             </div>
