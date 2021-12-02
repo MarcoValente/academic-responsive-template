@@ -106,6 +106,7 @@
   text-align: center;
   background-color: black;
   padding: 2px 16px;
+  padding-left: 40px;
   color: white;
 }
 
@@ -123,7 +124,7 @@ img.demo {
 img.hover-shadow {
   transition: 0.3s;
   display: block; 
-  height: 150px;
+  height: 140px;
 }
 
 .hover-shadow:hover {
