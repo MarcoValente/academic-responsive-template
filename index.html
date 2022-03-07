@@ -12,6 +12,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
         <link href="css/otherstyle.css" rel="stylesheet">
+        <link href="css/photogallery.css" rel="stylesheet">
         
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,6 +28,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/menucollapse.js"></script>
+        <script src="js/photogallery.js"></script>
         <script type="text/javascript" src="js/arrow78.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
         <!-- LaTeX implementation -->
@@ -96,22 +98,24 @@
                         Office (CERN):
                         <a target="_blank" href="https://maps.cern.ch/mapsearch/mapsearch.htm?n=[%2732/2-A10%27]">B32/2-A10</a>
                     </h4>
-                    <!-- <h4><i>Expertise: Data Management in Computer Systems &amp;
-                    Networks</i> <a href="#intro"
-                    onclick="javascript:reset_menus();$('#tab-intro-content').show();"
-                    class="btn-primary btn-xs">&raquo;</a><br></h4> -->
                     <p>
                         <!-- <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a> -->
                         <!-- <a href="valente.pdf" class="btn-sm btn-primary" target="_blank" -->
                         <!-- style="font-size: 16px;">CV (PDF) &raquo;</a> -->
-                        <a href="https://cds.cern.ch/record/2721059" target="_blank" class="btn-sm btn-primary"
-                        style="font-size: 16px;">PhD Thesis &raquo;</a>
+                        <div>
+                        <a href="https://cds.cern.ch/record/2721059" target="_blank" class="btn-sm btn-primary" style="font-size: 16px;">Ph.D. Thesis (CDS) &raquo;</a>
+                        </div>
+                        <div style="margin-top: 8px;">
+                            <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank" class="btn-sm btn-success"
+                                style="font-size: 16px;">Ph.D. Thesis (Springer) &raquo;</a>
+                        </div>
                     </p>
                     
                 </div>
                 <div align="right" class="col-md-5" style="margin-top: 10px;">
                     <span><a href="https://www.triumf.ca"><img border="0" width="360" src="images/unilogo.png"/></a></span>
                     <span><a href="https://atlas.cern" style="margin-right: 0px;"><img border="0" width="280" src="images/ATLAS-Logo-Blue.png" /></a></span>
+                    
                 </div> 
                 <b class="expandshow" style="display:none;" id="tab-1">
                     <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
@@ -425,6 +429,16 @@
                                 2019, <a href="https://cds.cern.ch/record/2692161" target="_blank" class="cdslink">CDS:2692161</a>, <a href="https://pos.sissa.it/364/184/" target="_blank" class="cdslink">DOI:10.22323/PoS(2020)1.364.0184</a>.
                             </li>
                         </ul>
+                        <h4>Books</h4>
+                        <ul>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">Springer</span>
+                                <span class="label label-warning">ISBN: 978-3-030-94047-8</span>
+                                <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank">"Supersymmetric Beasts and Where to Find Them, From Novel Hadronic Reconstruction Methods to Search Results in Large Jet Multiplicity Final States at the ATLAS
+                                Experiment"</a>, Springer series recognizing outstanding Ph.D. research, 2022, <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank" class="cdslink">SpringerLink</a>, <a href="https://www.amazon.com/Supersymmetric-Beasts-Where-Find-Them-dp-3030940462/dp/3030940462/ref=mt_other?_encoding=UTF8&me=&qid=1646659001" target="_blank" class="cdslink">Amazon</a>.
+                                
+                            </li>
+                        </ul>
                         <h4>Others</h4>
                         <ul>
                             <li style="margin: 5px 0;">
@@ -638,11 +652,133 @@
                         <ul>
                             <li><span class="label label-primary"><a target="_blank" href="https://github.com/MarcoValente"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
                             <li><span class="label label-warning"><a target="_blank" href="https://hub.docker.com/u/valentem1992"><font color="white">DockerHub</font></a></span> I provide Docker images for different HEP projects.</a></li>
-                            <li><span class="label label-danger"><a target="_blank" href="https://visit.cern/tours/guided-tours"><font color="white">CERN tours</font></a></span> Book your own CERN guided tour (in person or virtual).</a></li>
+                            <li><span class="label label-danger"><a target="_blank" href="https://visit.cern/guided-tours-groups"><font color="white">CERN tours</font></a></span> Book your own CERN guided tour (in person or virtual).</a></li>
                             <li><span class="label label-success"><font
                             color="white">Cycling</font></span> One of my
                             favorite hobbies :-)</a></li>
                         </ul>
+
+
+                        <!-- Photo gallery -->
+
+                        <!-- begin of modal gallery -->
+                        <!-- Images used to open the lightbox -->
+                        <div class="row-modalgallery">
+
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6396.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                            </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6189.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                            </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6265.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                            </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6791.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                            </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6952.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                            </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_6088.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                            </div>
+                            <div class="column-modalgallery">
+                                <img src="images/gallery/IMG_5473.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                            </div>
+                        </div>
+                        
+                        <!-- The Modal/Lightbox -->
+                        <div id="myModalGallery" class="modalgallery">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modalgallery-content">
+
+                                <!-- Caption text -->
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">1 / 7</div>
+                                    <img src="images/gallery/IMG_6396.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">2 / 7</div>
+                                    <img src="images/gallery/IMG_6189.jpg" style="width:100%">
+                                </div>
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">3 / 7</div>
+                                    <img src="images/gallery/IMG_6265.jpg" style="width:100%">
+                                </div>
+                                
+                                <div class="mySlides">
+                                    <div class="numbertext">4 / 7</div>
+                                    <img src="images/gallery/IMG_6791.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">5 / 7</div>
+                                    <img src="images/gallery/IMG_6952.jpg" style="width:100%">
+                                </div>
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 7</div>
+                                    <img src="images/gallery/IMG_6088.jpg" style="width:100%">
+                                </div>
+                        
+                                <div class="mySlides">
+                                    <div class="numbertext">7 / 7</div>
+                                    <img src="images/gallery/IMG_5473.jpg" style="width:100%">
+                                </div>
+                        
+                                <!-- Next/previous controls -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <!-- Thumbnail image controls -->
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6396.jpg" onclick="currentSlide(1)"
+                                        alt="My bike near the Rhone river in Geneva (Switzerland)">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6189.jpg" onclick="currentSlide(2)"
+                                        alt="The beauty of autumn trees in Randa (Switzerland).">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6265.jpg" onclick="currentSlide(3)"
+                                        alt="The Matterhorn, the famous Swiss peak in Zermatt (Switzerland).">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6791.jpg" onclick="currentSlide(4)"
+                                        alt="The iconic village of Foroglio, made of the stone houses typical of the italian-speaking region of Switzerland.">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6952.jpg" onclick="currentSlide(5)"
+                                        alt="Myself at an altitude of 3000m :)">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_6088.jpg" onclick="currentSlide(6)"
+                                        alt="The amazing view from the top of Monte Generoso in Capolago (Switzerland). I was lucky enough to be born at the bottom of this beautiful mountain. ;)">
+                                </div>
+                                
+                                <div class="column-modalgallery">
+                                    <img class="demo" src="images/gallery/IMG_5473.jpg" onclick="currentSlide(7)"
+                                        alt="The Leman lake and the castle of Chillon in Montreux (Switzerland).">
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <!-- end of modal gallery -->
+
                     </div>
                 </div>
             </div>

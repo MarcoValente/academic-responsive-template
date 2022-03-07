@@ -5857,8 +5857,8 @@ button.list-group-item-danger.active:focus {
   line-height: 1;
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
-  opacity: 0.2;
-  filter: alpha(opacity=20);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 .close:hover,
 .close:focus {
@@ -5875,6 +5875,7 @@ button.close {
   border: 0;
   -webkit-appearance: none;
 }
+
 .modal-open {
   overflow: hidden;
 }
