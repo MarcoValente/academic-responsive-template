@@ -45,6 +45,23 @@
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
         <link rel="manifest" href="images/favicon/site.webmanifest">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Matomo -->
+        <script>
+            var _paq = window._paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function () {
+                var u = "https://webanalytics.web.cern.ch/";
+                _paq.push(['setTrackerUrl', u + 'matomo.php']);
+                _paq.push(['setSiteId', '114']);
+                var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+                g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+            })();
+        </script>
+        <!-- End Matomo Code -->
     </head>
     
     <body id="page-top" class="index">
@@ -98,24 +115,21 @@
                         Office (CERN):
                         <a target="_blank" href="https://maps.cern.ch/mapsearch/mapsearch.htm?n=[%2732/2-A10%27]">B32/2-A10</a>
                     </h4>
-                    <p>
+                    <h4 style="font-weight: 400;">
                         <!-- <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a> -->
                         <!-- <a href="valente.pdf" class="btn-sm btn-primary" target="_blank" -->
                         <!-- style="font-size: 16px;">CV (PDF) &raquo;</a> -->
-                        <div>
-                        <a href="https://cds.cern.ch/record/2721059" target="_blank" class="btn-sm btn-primary" style="font-size: 16px;">Ph.D. Thesis (CDS) &raquo;</a>
+                        <div style="position: absolute; top:100%;"> Ph.D. thesis: 
+                        <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank" class="btn-sm btn-success" style="font-size: 14px;">Springer &raquo;</a>
+
+                        <a href="https://cds.cern.ch/record/2721059" target="_blank" class="btn-sm btn-primary" style="font-size: 14px;">CDS &raquo;</a>
                         </div>
-                        <div style="margin-top: 8px;">
-                            <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank" class="btn-sm btn-success"
-                                style="font-size: 16px;">Ph.D. Thesis (Springer) &raquo;</a>
-                        </div>
-                    </p>
-                    
+                    </h4>
+
                 </div>
                 <div align="right" class="col-md-5" style="margin-top: 10px;">
                     <span><a href="https://www.triumf.ca"><img border="0" width="360" src="images/unilogo.png"/></a></span>
                     <span><a href="https://atlas.cern" style="margin-right: 0px;"><img border="0" width="280" src="images/ATLAS-Logo-Blue.png" /></a></span>
-                    
                 </div> 
                 <b class="expandshow" style="display:none;" id="tab-1">
                     <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
@@ -148,7 +162,6 @@
                         below in the <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">research tab</a>. For any additional 
                         enquire about my work, do not hesitate to contact me following the informations provided in the <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">contact section</a> below!
                         </p>
-                        </p>
                         <p>
                         <h4>Research interests:</h4>
                         </p>
@@ -163,8 +176,9 @@
                         <span class="label label-interest">Triggers</span>
                         <span class="label label-interest">HL-LHC</span>
                         <!-- <span class="label label-interest">Machine Learning</span> -->
-                        <span class="label label-interest">Future Colliders</span>
-                        <span class="label label-interest">Silicon detectors</span>
+                        <span class="label label-interest">Future colliders</span>
+                        <!-- <span class="label label-interest">Silicon detectors</span> -->
+                        </p>
                     </div>
                     
                 </div>
@@ -257,6 +271,7 @@
                                     <li>Searches for <b>Higgs-boson pair</b> production and <b>supersymmetric particles</b> in hadronic final states.</li>
                                     <li>Reconstruction and triggering of <b>jets</b> and <b>Missing Transverse Momentum (MET)</b>.</li>
                                     <li><b>Detector upgrades and physics projections</b> for the High Luminosity LHC.</li>
+                                    <li><b>Future particle colliders</b> and detectors.</li>
                                 </ul>
                             </p>
                         </div>
@@ -318,43 +333,67 @@
                         <h2>Publications <a href="http://inspirehep.net/author/profile/Marco.Valente.1" target="_blank"
                                 class="btn btn-primary">All Publications &raquo;</a></h2>
                         <h4>
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://orcid.org/0000-0002-7239-2387"><font color="white">ORCID</font></a>
-                            </span>&nbsp;
-                            <span class="label label-warning">
+                            <a target="_blank" href="https://orcid.org/0000-0002-0486-9569">
+                                <span class="label label-primary"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon"/> <font color="white">ORCID</font></a>
+                            </span>
+                            <span class="label label-primary">
                                 <a target="_blank" href="https://inspirehep.net/authors/1613622"><font color="white">INSPIRE</font></a>
-                            </span>&nbsp;
-                            <!-- <span class="label label-default">
-                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=35176841800"><font color="white">Scopus</font></a>
-                            </span>&nbsp;
-                            <span class="label label-default">
-                                <a target="_blank" href="https://www.researcherid.com/rid/O-2301-2016"><font color="white">ResearcherID</font></a>
-                            </span> -->
+                            </span>
                         </h4>
-                        <h4>Journal Papers</h4><ul>
+                        <h4>Journal Papers</h4><ul style="margin-bottom:40px">
                             <li style="margin: 5px 0;">
-                                <span class="label label-success">JHEP</span>
-                                <span class="label label-interest">Supersymmetry</span>
-                                <a href="https://doi.org/10.1007/JHEP10(2020)062" target="_blank">"Search for new phenomena in final states with large jet multiplicities and missing transverse momentum using $\sqrt{s}=13$ TeV proton−proton collisions recorded by ATLAS in Run 2 of the LHC"</a>, 
-                                <i>The ATLAS Collaboration</i>, J. High Energ. Phys. 2020, 34 (2020), 
-                                <a href="https://arxiv.org/abs/2008.06032" target="_blank" class="cdslink">arxiv:1708.02794</a>, 
-                                <a href="https://doi.org/10.1007/JHEP10(2020)062" target="_blank" class="cdslink">DOI:10.1007/JHEP10(2020)062</a>, 
-                                <a href="http://cds.cern.ch/record/2728000" target="_blank" class="cdslink">CDS:2728000</a>.
+                                <span class="label label-success">Phys. Rev. D</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.092002" target="_blank">"Search for resonant pair production of Higgs bosons in the $b\overline{b}b\overline{b}$ final state using $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector"</a>, <i>The ATLAS Collaboration</i>, Phys. Rev. D 105, 092002.
+                                <span class="label label-warning"><a href="https://arxiv.org/abs/2202.07288" target="_blank"><font color="white">arXiv:2202.07288</font></a></span>
+                                <span class="label label-warning"><a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.092002" target="_blank"><font color="white">DOI:10.1103/PhysRevD.105.092002</font></a></span>
+                                <span class="label label-warning"><a href="https://cds.cern.ch/record/2801590" target="_blank"><font color="white">CDS:2801590</font></a></span>
                             </li>
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">JHEP</span>
                                 <span class="label label-interest">Supersymmetry</span>
-                                <a
-                                href="https://doi.org/10.1007/JHEP12(2017)034" target="_blank">"Search
-                                for new phenomena with large jet multiplicities and missing transverse momentum using large-radius jets and flavour-tagging at ATLAS in 13 TeV pp collisions"</a>, <i>The ATLAS Collaboration</i>,
-                                J. High Energ. Phys. 2017, 34 (2017), 
-                                <a href="https://arxiv.org/abs/1708.02794" target="_blank" class="cdslink">arxiv:1708.02794</a>, 
-                                <a href="https://doi.org/10.1007/JHEP12(2017)034" target="_blank" class="cdslink">DOI:10.1007/JHEP12(2017)034</a>, 
-                                <a href="https://cds.cern.ch/record/2277363" target="_blank" class="cdslink">CDS:2277363</a>.
+                                <a href="https://doi.org/10.1007/JHEP10(2020)062" target="_blank">"Search for new phenomena in final states with large jet multiplicities and missing transverse momentum using $\sqrt{s}=13$ TeV proton−proton collisions recorded by ATLAS in Run 2 of the LHC"</a>, <i>The ATLAS Collaboration</i>, J. High Energ. Phys. 2020, 34 (2020).
+                                <span class="label label-warning"><a href="https://arxiv.org/abs/2008.06032" target="_blank"><font color="white">arXiv:1708.02794</font></a></span>
+                                <span class="label label-warning"><a href="https://doi.org/10.1007/JHEP10(2020)062" target="_blank"><font color="white">DOI:10.1007/JHEP10(2020)062</font></a></span>
+                                <span class="label label-warning"><a href="http://cds.cern.ch/record/2728000" target="_blank"><font color="white">CDS:2728000</font></a></span>
+                            </li>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">JHEP</span>
+                                <span class="label label-interest">Supersymmetry</span>
+                                <a href="https://doi.org/10.1007/JHEP12(2017)034" target="_blank">"Search for new phenomena with large jet multiplicities and missing transverse momentum using large-radius jets and flavour-tagging at ATLAS in 13 TeV pp collisions"</a>, <i>The ATLAS Collaboration</i>, J. High Energ. Phys. 2017, 34 (2017).
+                                <span class="label label-warning"><a href="https://arxiv.org/abs/1708.02794" target="_blank"><font color="white">arXiv:1708.02794</font></a></span>
+                                <span class="label label-warning"><a href="https://doi.org/10.1007/JHEP12(2017)034" target="_blank"><font color="white">DOI:10.1007/JHEP12(2017)034</font></a></span>
+                                <span class="label label-warning"><a href="https://cds.cern.ch/record/2277363" target="_blank"><font color="white">CDS:2277363</font></a></span>
                             </li>
                         </ul>
                         <h4>ATLAS Public Documents</h4>
-                        <ul>
+                        <ul style="margin-bottom:40px">
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">ATLAS-CONF-2022-050</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <a href="https://cds.cern.ch/record/2816332/files/ATLAS-CONF-2022-050.pdf" target="_blank">"Constraining the Higgs boson self-coupling from single- and double-Higgs production with the ATLAS detector using $pp$ collisions at $\sqrt{s}=13$ TeV"</a>, <i>The ATLAS Collaboration</i>,
+                                Jul. 2022.
+                                <a href="https://cds.cern.ch/record/2816332" target="_blank" class="cdslink">CDS:2816332</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">ATLAS-CONF-2022-035</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <a href="https://cds.cern.ch/record/2811390/files/ATLAS-CONF-2022-035.pdf" target="_blank">"Search for non-resonant pair production of Higgs bosons
+                                in the $b\bar{b}b\bar{b}$ final state in $pp$ collisions at $\sqrt{s}= 13$ TeV with the ATLAS detector"</a>, <i>The ATLAS Collaboration</i>,
+                                May 2022,
+                                <a href="https://cds.cern.ch/record/2811390" target="_blank" class="cdslink">CDS:2811390</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">ATL-PHYS-PUB-2022-018</span>
+                                <span class="label label-success">CMS-PAS-FTR-22-001</span>
+                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <span class="label label-interest">HL-LHC</span>
+                                <a href="https://cds.cern.ch/record/2806962/files/FTR-22-001-pas.pdf" target="_blank">"Snowmass White Paper Contribution: Physics with the
+                                Phase-2 ATLAS and CMS Detectors"</a>, <i>The ATLAS and CMS Collaborations</i>,
+                                Mar. 2022,
+                                <a href="https://cds.cern.ch/record/2805993" target="_blank" class="cdslink">CDS:2805993</a> (ATLAS),
+                                <a href="https://cds.cern.ch/record/2806962" target="_blank" class="cdslink">CDS:2806962</a> (CMS).
+                            </li>
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">ATLAS-CONF-2021-052</span>
                                 <span class="label label-interest">Higgs-boson pairs</span>
@@ -373,7 +412,7 @@
                             </li>
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">ATL-PHYS-PUB-2021-023</span>
-                                <span class="label label-interest">Higgs-boson pairs</span>
+                                <!-- <span class="label label-interest">Higgs-boson pairs</span> -->
                                 <span class="label label-interest">HL-LHC</span>
                                 <a href="https://cds.cern.ch/record/2776650/files/ATL-PHYS-PUB-2021-023.pdf" target="_blank">"Expected performance of the ATLAS detector under different High-Luminosity LHC conditions"</a>, <i>The ATLAS Collaboration</i>,
                                 Jul. 2021, <a
@@ -418,23 +457,28 @@
                             </li>
                         </ul>
                         <h4>Conference proceedings</h4>
-                        <ul>
+                        <ul style="margin-bottom:40px">
                             <li style="margin: 5px 0;">
-                                <span class="label label-success">PoS</span>
+                                <span class="label label-success">Proc. of Science</span>
                                 <span class="label label-interest">HL-LHC</span>
                                 <span class="label label-interest">Triggers</span>
                                 <!-- <span class="label label-interest">Particle Flow</span> -->
                                 <a href="https://pos.sissa.it/364/184/" target="_blank" >"The ATLAS Trigger and Data Acquisition Upgrades for the High-Luminosity LHC (HL-LHC)"</a>, <i>M. Valente (ATLAS Collaboration)</i>, Proceedings of European Physical Society Conference on High Energy Physics PoS (EPS-HEP2019),
-                                2019, <a href="https://cds.cern.ch/record/2692161" target="_blank" class="cdslink">CDS:2692161</a>, <a href="https://pos.sissa.it/364/184/" target="_blank" class="cdslink">DOI:10.22323/PoS(2020)1.364.0184</a>.
+                                2019.
+                                <span class="label label-warning"><a href="https://pos.sissa.it/364/184/" target="_blank"><font color="white">DOI:10.22323/PoS(2020)1.364.0184</font></a></span>
+                                <span class="label label-warning"><a href="https://cds.cern.ch/record/2692161" target="_blank"><font color="white">CDS:2692161</font></a></span>
                             </li>
                         </ul>
                         <h4>Books</h4>
-                        <ul>
+                        <ul style="margin-bottom:40px">
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">Springer</span>
-                                <span class="label label-warning">ISBN: 978-3-030-94047-8</span>
+                                <span class="label label-interest">Supersymmetry</span>
                                 <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank">"Supersymmetric Beasts and Where to Find Them, From Novel Hadronic Reconstruction Methods to Search Results in Large Jet Multiplicity Final States at the ATLAS
-                                Experiment"</a>, Springer series recognizing outstanding Ph.D. research, 2022, <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank" class="cdslink">SpringerLink</a>, <a href="https://www.amazon.com/Supersymmetric-Beasts-Where-Find-Them-dp-3030940462/dp/3030940462/ref=mt_other?_encoding=UTF8&me=&qid=1646659001" target="_blank" class="cdslink">Amazon</a>.
+                                Experiment"</a>, <i>M. Valente</i>, Springer Nature AG, Switzerland, 2022.
+                                <!-- <a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank" class="cdslink">SpringerLink</a>, <a href="https://www.amazon.com/Supersymmetric-Beasts-Where-Find-Them-dp-3030940462/dp/3030940462/ref=mt_other?_encoding=UTF8&me=&qid=1646659001" target="_blank" class="cdslink">Amazon</a>. -->
+                                <span class="label label-warning"><a href="https://link.springer.com/book/10.1007/978-3-030-94047-8" target="_blank"><font color="white">ISBN: 978-3-030-94047-8</font></a></span>
+                                <span class="label label-warning"><a href="https://doi.org/10.1007/978-3-030-94047-8" target="_blank"><font color="white">DOI:10.1007/978-3-030-94047-8</font></a></span>
                                 
                             </li>
                         </ul>
@@ -442,13 +486,20 @@
                         <ul>
                             <li style="margin: 5px 0;">
                                 <span class="label label-success">CERN-OPEN-2020-006</span>
-                                <span class="label label-interest">Future Colliders</span>
+                                <span class="label label-interest">Future colliders</span>
                                 <a href="https://cds.cern.ch/record/2708708/files/CERN-OPEN-2020-006.pdf" target="_blank" >"Report on the ECFA Early-Career Researchers Debate on the
                                 2020 European Strategy Update for Particle Physics"</a>, <i>N. Andari et al.</i>,
-                                Feb. 2020, <a href="https://arxiv.org/abs/2002.02837" target="_blank" class="cdslink">arxiv:2002.02837</a>, <a href="https://cds.cern.ch/record/2625233" target="_blank" class="cdslink">CDS:2708708</a>.
+                                Feb. 2020, <a href="https://arxiv.org/abs/2002.02837" target="_blank" class="cdslink">arXiv:2002.02837</a>, <a href="https://cds.cern.ch/record/2625233" target="_blank" class="cdslink">CDS:2708708</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
+                                <span class="label label-success">FERMILAB-FN-1185-AD-ND-PPD-TD</span>
+                                <span class="label label-interest">Future colliders</span>
+                                <a href="https://arxiv.org/pdf/2203.07964.pdf" target="_blank" >"Simulated Detector Performance at the Muon Collider"</a>, <i>The International Muon Collider Collaboration</i>.
+                                Aug. 2022.
+                                <span class="label label-warning"><a href="https://arxiv.org/pdf/2203.07964.pdf" target="_blank"><font color="white">arXiv:2203.07964</font></a></span>
+                                <span class="label label-warning"><a href="https://cds.cern.ch/record/2824768" target="_blank"><font color="white">CDS:2824768</font></a></span>
                             </li>
                         </ul>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -649,12 +700,12 @@
                         <hr class="star-primary">
                         <h2>Random Links</h2>
                         <ul>
-                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/MarcoValente"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
-                            <li><span class="label label-warning"><a target="_blank" href="https://hub.docker.com/u/valentem1992"><font color="white">DockerHub</font></a></span> I provide Docker images for different HEP projects.</a></li>
-                            <li><span class="label label-danger"><a target="_blank" href="https://visit.cern/guided-tours-groups"><font color="white">CERN tours</font></a></span> Book your own CERN guided tour (in person or virtual).</a></li>
+                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/MarcoValente"><font color="white">Github</font></a></span> I support open-source code development.</li>
+                            <li><span class="label label-warning"><a target="_blank" href="https://hub.docker.com/u/valentem1992"><font color="white">DockerHub</font></a></span> I provide Docker images for different HEP projects.</li>
+                            <li><span class="label label-danger"><a target="_blank" href="https://visit.cern/guided-tours-groups"><font color="white">CERN tours</font></a></span> Book your own CERN guided tour (in person or virtual).</li>
                             <li><span class="label label-success"><font
                             color="white">Cycling</font></span> One of my
-                            favorite hobbies :-)</a></li>
+                            favorite hobbies :-)</li>
                         </ul>
 
 
@@ -831,7 +882,6 @@
                                         spiderjam('marco.valente', 'cern.ch');
                                     </script><br>
                                 </p>
-                                </p>
                             </div>
                         
                             <div align="left" class="col-md-3">
@@ -845,6 +895,8 @@
                         <!-- <div data-include="contact"></div> -->
                         <hr class="star-primary">
                     </div>
+                </div>
+            </div>
         </section>
         
         <hr class="star-primary">
