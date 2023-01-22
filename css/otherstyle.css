@@ -223,3 +223,11 @@
     background: #ff6600;
     color: white;
 }
+
+.figcaption-small {
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
