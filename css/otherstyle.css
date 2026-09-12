@@ -231,3 +231,22 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+@media (min-width: 992px) {
+
+    .research-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .research-row > [class*="col-"] {
+        float: none;
+    }
+
+    .research-figures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

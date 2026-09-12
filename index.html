@@ -81,8 +81,8 @@
                         <h5 style="margin-top: 3px;"><i>Ph.D. Université de Genève (Switzerland), 2020 </i></h5>
                         
                         <h4>Senior Research Fellow<br>
-                            ATLAS Data Processing (ADP) department<br>
-                            Experimental Physics (EP)<br>
+                            <!-- ATLAS Data Processing (ADP) department<br> -->
+                            Experimental Physics (EP) department<br>
                             <!-- Physical Sciences Division<br> -->
                             <a href="https://www.cern.ch" target="_blank">European Organization for Nuclear Research (CERN)</a><br>
                             <a href="https://maps.app.goo.gl/eNPf94vYR52hxwKJ7" target="_blank">Espl. des particules 1,<br>
@@ -151,12 +151,8 @@
                         <hr class="star-primary">
                         
                         <p class="lead">
-                        Hello! I am a Senior Research Fellow at the <a href="https://home.cern" target="_blank">European Organization for Nuclear Research (CERN)</a>. My research
-                        focuses on the searches for new physics carried out by the <a href="https://atlas.cern" target="_blank">ATLAS experiment</a>, one of the four 
-                        main physics experiments of the <a href="https://home.cern/science/accelerators/large-hadron-collider" target="_blank">Large Hadron Collider 
-                        (LHC)</a>. This webpage illustrates my research, teaching and outreach activities. Further details about my research interests are provided 
-                        below in the <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">research tab</a>. For any additional 
-                        enquire about my work, do not hesitate to contact me following the informations provided in the <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">contact section</a> below!
+                        Hello! I am an Experimental Particle Physicist at the <a href="https://home.cern" target="_blank">European Organization for Nuclear Research (CERN)</a>, working at the intersection of fundamental physics, detector reconstruction, and scientific computing. My research focuses on maximizing the physics potential of the <a href="https://atlas.cern" target="_blank">ATLAS experiment</a>, one of the four major experiments at the <a href="https://home.cern/science/accelerators/large-hadron-collider" target="_blank">Large Hadron Collider (LHC)</a>.
+This website provides an overview of my research activities and interests. You can find more details in the <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">research section</a>. If you would like to learn more about my work or get in touch, please feel free to use the information provided in the <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">contact section</a>.
                         </p>
                         <p>
                         <h4>Research interests:</h4>
@@ -168,11 +164,11 @@
                         <!-- <span class="label label-interest">Particle Flow</span> -->
                         <span class="label label-interest">Jet/b-jet triggers</span>
                         <span class="label label-interest">Jet/MET reconstruction</span>
-                        <span class="label label-interest">Calorimeter and jet simulation</span>
-                        <span class="label label-interest">Silicon detectors</span>
+                        <span class="label label-interest">Machine Learning</span>
+                        <span class="label label-interest">Calorimeter simulation</span>
+                        <!-- <span class="label label-interest">Silicon detectors</span> -->
                         <!-- <span class="label label-interest">Jet/MET</span> -->
                         <!-- <span class="label label-interest">HL-LHC</span> -->
-                        <!-- <span class="label label-interest">Machine Learning</span> -->
                         <!-- <span class="label label-interest">Supersymmetry</span> -->
                         <span class="label label-interest">Future colliders</span>
                         </p>
@@ -193,114 +189,120 @@
                     </b>
                 </div>
                 <div class="allshow" style="display:none;" id="tab-research-content">
-                    <hr class="star-primary">
-                    <div style="text-align: left;" class="col-md-7">
-                            <h2>Research
-                                <!-- <a href="research.html" class="btn btn-primary">Read more &raquo;</a> -->
-                            </h2>
-                            <p>
-                            Despite the extremely precise description of
-                            subatomic phenomena provided by the Standard Model,
-                            several questions of physics are still open today such as
-                            the origin of Dark Matter, the matter-antimatter asymmetry of the universe
-                            and the unification of elementary forces at
-                            high energy. Look for answers to these questions defines my
-                            research activities at the <a href="https://atlas.cern" target="_blank">ATLAS experiment</a>.
-                            These activities include:
-                                <ul>
-                                    <li>Searches for <b>Higgs-boson pair</b> production and <b>supersymmetric particles</b> in hadronic final states.</li>
-                                    <li>Reconstruction and triggering of <b>jets</b> and <b>MET</b>.</li>
-                                    <li><b>Detector upgrades and physics projections</b> for the High Luminosity LHC.</li>
-                                    <li><b>Future particle colliders</b> and detectors.</li>
+                    <div class="row research-row">
+                        <hr class="star-primary">
+                        <div class="col-md-7">
+                                <h2>Research
+                                    <!-- <a href="research.html" class="btn btn-primary">Read more &raquo;</a> -->
+                                </h2>
+                                <p>
+                                <p> Despite the remarkable success of the Standard Model in describing subatomic phenomena, 
+                                    several fundamental questions of physics remain unanswered such as the matter-antimatter 
+                                    asymmetry of the Universe and the origin of dark matter.
+                                </p>
+                                <p> My research aims at answering to these questions by combining the analysis of large-scale experimental 
+                                    datasets with the development of novel and advanced reconstruction and computing techniques. 
+                                    <!-- A central goal of my work 
+                                    is to extend the physics reach of current and future particle-physics experiments by 
+                                    improving how collision data are reconstructed, simulated, selected, and interpreted.  -->
+                                Within the <b>ATLAS experiment</b>, my research activities currently focus on: 
+                                <ul> 
+                                    <li> Searches for <b>new phenomena in the Higgs and scalar sector</b>, 
+                                        with particular emphasis on Higgs-boson pair production. </li> 
+                                    <li> Development of <b>Machine-Learning techniques</b> for jet/MET reconstruction and 
+                                        fast detector simulation. </li> 
+                                    <li> Design and optimization of <b>hadronic trigger strategies</b> for Higgs-boson pair production. </li> 
+                                    <li> Studies of <b>detector upgrades and novel reconstruction algorithms</b> for future 
+                                        particle-physics experiments. </li> 
                                 </ul>
                             </p>
+                        </div>
+                        <div class="col-md-5 research-figures">
+
+                            <figure class="figure">
+                                <img id="myImg2" src="images/research/higgs-self-feyn.png" class="img-responsive rounded modalimg"
+                                    alt="Figure 1: Tri-linear Higgs self-coupling diagram.">
+                                <figcaption class="figcaption-small">Figure 1: Tri-linear Higgs self-coupling diagram.</figcaption>
+                            </figure>
+                            
+                            <!-- The Modal -->
+                            <div id="myModal2" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" id="close2">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="imgmodal2">
+                                <!-- Modal Caption (Image Text) -->
+                                <div class="caption" id="caption2"></div>
+                            </div>
+                            <!-- Modal images  -->
+                            <script> var number = '2';</script>
+                            <script type="text/javascript" src="js/modal.js"></script>
+                            
+                            <!-- Figure jet -->
+
+                            <figure class="figure">
+                                <img id="myImg3" src="images/research/Sketch_PartonParticleCaloJet.png" class="img-responsive rounded modalimg"
+                                    alt="Figure 2: Sketch of a hadronic jet resulting from a pp collision of the LHC (Credits: CMS Collaboration).">
+                                <figcaption class="figcaption-small">Figure 2: Sketch of a hadronic jet resulting from a pp collision of the LHC (Credits: CMS Collaboration).</figcaption>
+                            </figure>
+                            
+                            <!-- The Modal -->
+                            <div id="myModal3" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" id="close3">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="imgmodal3">
+                                <!-- Modal Caption (Image Text) -->
+                                <div class="caption" id="caption3"></div>
+                            </div>
+                            <!-- Modal images  -->
+                            <script> var number = '3';</script>
+                            <script type="text/javascript" src="js/modal.js"></script>
+                        </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="padding-top-10 row">
+                        <div class="col-lg-6">
+                            <figure class="figure">
+                                <img id="myImg4" src="images/research/event_display_13PFlowJets.png" class="img-responsive rounded modalimg"
+                                    alt="Figure 3: Supersymmetric event candidate reconstructed with 16 jets and collected during the second Run of the LHC (2016).">
+                                <figcaption class="figcaption-small">Figure 3: Supersymmetric event candidate reconstructed with 16 jets and collected during the second Run of the LHC
+                                (2016).</figcaption>
+                            </figure>
 
-                        <figure class="figure">
-                            <img id="myImg2" src="images/research/higgs-self-feyn.png" class="img-responsive rounded modalimg"
-                                alt="Figure 1: Tri-linear Higgs self-coupling diagram.">
-                            <figcaption class="figcaption-small">Figure 1: Tri-linear Higgs self-coupling diagram.</figcaption>
-                        </figure>
-                        
-                        <!-- The Modal -->
-                        <div id="myModal2" class="modal">
-                            <!-- The Close Button -->
-                            <span class="close" id="close2">&times;</span>
-                            <!-- Modal Content (The Image) -->
-                            <img class="modal-content" id="imgmodal2">
-                            <!-- Modal Caption (Image Text) -->
-                            <div class="caption" id="caption2"></div>
+                            <!-- The Modal -->
+                            <div id="myModal4" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" id="close4">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="imgmodal4">
+                                <!-- Modal Caption (Image Text) -->
+                                <div class="caption" id="caption4"></div>
+                            </div>
+                            <!-- Modal images  -->
+                            <script> var number = '4';</script>
+                            <script type="text/javascript" src="js/modal.js"></script>
                         </div>
-                        <!-- Modal images  -->
-                        <script> var number = '2';</script>
-                        <script type="text/javascript" src="js/modal.js"></script>
-                        
-                        <!-- Figure jet -->
+                        <div class="col-md-6">
 
-                        <figure class="figure">
-                            <img id="myImg3" src="images/research/Sketch_PartonParticleCaloJet.png" class="img-responsive rounded modalimg"
-                                alt="Figure 2: Sketch of a hadronic jet resulting from a pp collision of the LHC (Credits: CMS Collaboration).">
-                            <figcaption class="figcaption-small">Figure 2: Sketch of a hadronic jet resulting from a pp collision of the LHC (Credits: CMS Collaboration).</figcaption>
-                        </figure>
-                        
-                        <!-- The Modal -->
-                        <div id="myModal3" class="modal">
-                            <!-- The Close Button -->
-                            <span class="close" id="close3">&times;</span>
-                            <!-- Modal Content (The Image) -->
-                            <img class="modal-content" id="imgmodal3">
-                            <!-- Modal Caption (Image Text) -->
-                            <div class="caption" id="caption3"></div>
+                            <figure class="figure">
+                                <img id="myImg5" src="images/research/atlas-kappa-lambda-excl.png" class="img-responsive rounded modalimg"
+                                    alt="Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs production cross-section with respect to Higgs self-coupling strength $\kappa_\lambda$.">
+                                <figcaption class="figcaption-small">Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs production cross-section with respect to Higgs self-coupling strength $\kappa_\lambda$.</figcaption>
+                            </figure>
+
+                            <!-- The Modal -->
+                            <div id="myModal5" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" id="close5">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="imgmodal5">
+                                <!-- Modal Caption (Image Text) -->
+                                <div class="caption" id="caption5"></div>
+                            </div>
+                            <!-- Modal images  -->
+                            <script> var number = '5';</script>
+                            <script type="text/javascript" src="js/modal.js"></script>
                         </div>
-                        <!-- Modal images  -->
-                        <script> var number = '3';</script>
-                        <script type="text/javascript" src="js/modal.js"></script>
-                    </div>
-
-                    <div class="col-lg-6">
-
-
-                        <figure class="figure">
-                            <img id="myImg4" src="images/research/event_display_13PFlowJets.png" class="img-responsive rounded modalimg"
-                                alt="Figure 3: Supersymmetric event candidate reconstructed with 16 jets and collected during the second Run of the LHC (2016).">
-                            <figcaption class="figcaption-small">Figure 3: Supersymmetric event candidate reconstructed with 16 jets and collected during the second Run of the LHC
-                            (2016).</figcaption>
-                        </figure>
-
-                        <!-- The Modal -->
-                        <div id="myModal4" class="modal">
-                            <!-- The Close Button -->
-                            <span class="close" id="close4">&times;</span>
-                            <!-- Modal Content (The Image) -->
-                            <img class="modal-content" id="imgmodal4">
-                            <!-- Modal Caption (Image Text) -->
-                            <div class="caption" id="caption4"></div>
-                        </div>
-                        <!-- Modal images  -->
-                        <script> var number = '4';</script>
-                        <script type="text/javascript" src="js/modal.js"></script>
-                    </div>
-                    <div class="col-md-6">
-
-                        <figure class="figure">
-                            <img id="myImg5" src="images/research/atlas-kappa-lambda-excl.png" class="img-responsive rounded modalimg"
-                                alt="Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs production cross-section with respect to Higgs self-coupling strength $\kappa_\lambda$.">
-                            <figcaption class="figcaption-small">Figure 4: Combined ATLAS exclusion limits of ggF di-Higgs production cross-section with respect to Higgs self-coupling strength $\kappa_\lambda$.</figcaption>
-                        </figure>
-
-                        <!-- The Modal -->
-                        <div id="myModal5" class="modal">
-                            <!-- The Close Button -->
-                            <span class="close" id="close5">&times;</span>
-                            <!-- Modal Content (The Image) -->
-                            <img class="modal-content" id="imgmodal5">
-                            <!-- Modal Caption (Image Text) -->
-                            <div class="caption" id="caption5"></div>
-                        </div>
-                        <!-- Modal images  -->
-                        <script> var number = '5';</script>
-                        <script type="text/javascript" src="js/modal.js"></script>
                     </div>
                 </div>
             </div>
@@ -603,10 +605,20 @@
                         <h4>Selected Talks</h4>
                         <ul>
                             <li style="margin: 5px 0;">
+                                <span class="label label-success">ICHEP2026</span>
+                                <span class="label label-interest">Simulation</span>
+                                <span class="label label-interest">Machine Learning</span>
+                                <a
+                                href="https://indico.cern.ch/event/1522800/contributions/6983083/attachments/3322670/5949776/ATLAS_FastSimulation_MarcoValente.pdf" target="_blank" >"Advances in the ATLAS Fast Simulation Program: Machine Learning, Fast Tracking, and Workflow Integration for Run 4"</a>, <i>M.
+                                Valente (ATLAS Collaboration)</i>,
+                                43rd International Conference on High Energy Physics (ICHEP2026),
+                                <a href="https://cds.cern.ch/record/2969160" ctarget="_blank" class="cdslink">CDS:2969160</a>.
+                            </li>
+                            <li style="margin: 5px 0;">
                                 <span class="label label-success">HIGGS2023</span>
                                 <span class="label label-interest">Higgs pair production</span>
                                 <a
-                                href="https://cds.cern.ch/record/2883579" target="_blank" >"Non-resonant HH searches: status and prospects (ATLAS+CMS)"</a>, <i>M.
+                                href="https://cds.cern.ch/record/2883579" target="_blank" >"Non-resonant HH searches at ATLAS and CMS: status and prospects"</a>, <i>M.
                                 Valente (ATLAS Collaboration)</i>,
                                 HIGGS2023,
                                 <a href="https://cds.cern.ch/record/2883579" ctarget="_blank" class="cdslink">CDS:2883579</a>.
@@ -615,7 +627,7 @@
                                 <span class="label label-success">HIGGS2021</span>
                                 <span class="label label-interest">Higgs pair production</span>
                                 <a
-                                href="https://cds.cern.ch/record/2788852" target="_blank" >"di-Higgs production results - twice the Higgs, twice the fun"</a>, <i>M.
+                                href="https://cds.cern.ch/record/2788852" target="_blank" >"Di-Higgs results (ATLAS) - twice the Higgs, twice the fun"</a>, <i>M.
                                 Valente (ATLAS Collaboration)</i>,
                                 HIGGS2021,
                                 <a href="https://cds.cern.ch/record/2788852" ctarget="_blank" class="cdslink">CDS:2788852</a>.
